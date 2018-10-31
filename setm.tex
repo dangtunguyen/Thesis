@@ -1,0 +1,18 @@
+%\vspace{-0.13in}
+\chapter{Configuration Extractor}
+\label{sec:extractor}
+
+IoT platforms typically provide a mobile companion app and/or a web-based app
+to manage and configure smart apps and devices.
+For Samsung SmartThings, we develop a crawler in Java,
+using the \href{https://jsoup.org/}{\textit{Jsoup}} package to automatically extract the system's
+configuration from the management web app~\cite{Samsung:smartthingsmanage}.
+Given a SmartThings account (user's name and password),
+the crawler logs in to the management web app
+and extracts (i) installed devices, (ii) installed smart apps, and
+(iii) configurations of apps.
+%We also provide users with an interface to select the list of safety properties (more details in \S~\ref{sec:desiredproperty}) they need verified. 
+Moreover, whenever a user installs a new generic smart device (\eg, a smart power outlet),
+we have an interface to get the device association info (\eg, this new outlet is used to control an AC) from the user.
+The extracted configuration is then saved to a file and used later by the \textit{Model Generator}.
+The process is straightforward and we omit the details in the interest of space.

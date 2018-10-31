@@ -1,0 +1,26 @@
+%\vspace{-0.15in}
+\chapter{Output Analyzer}
+\label{outputanalyzer}
+
+%The cause of a violation can be either bad configuration or bad app.
+The \textit{Output Analyzer} {\em attributes} a violation to either a misconfiguration or a malicious app
+using a heuristic-based algorithm.
+The algorithm consists of two phases.
+In the first phase, when a user installs a new smart app,
+the output analyzer enumerates all possible configurations for this app.
+It verifies if the user-defined properties hold with each configuration independently.
+If the proportion of violations (violation ratio) is greater than a predefined threshold (\eg, 90\%),
+the new smart app is attributed as a malicious app.
+
+If this is not the case, in the second phase, the new app is verified
+in conjunction with other apps that were previously installed by the user.
+Again, all configurations are considered.
+If the violation ratio is greater than a predefined threshold,
+the new app is attributed as a bad app and a report is provided to the user.
+Otherwise, the violation is attributed to misconfiguration and
+suggestions of safe configurations with regards to the user defined properties
+are provided.
+If there is no violation, a successful verification is reported.
+%Based on the report of our system, the user can decide to either remove the new app or change its configuration if any violation is detected.
+
+%\textbf{Example of calculating all possible configurations for an app}: Let us consider the app \textit{Auto Mode Change}, which requires a user to configure a list of presence sensors. Assume that there are three presence sensors in the IoT system: \textit{dadPresence}, \textit{momPresence}, and \textit{sonPresence}. There will be seven possible configurations for this app: (\textit{dadPresence}), (\textit{momPresence}), (\textit{sonPresence}), (\textit{dadPresence}, \textit{momPresence}), (\textit{dadPresence}, \textit{sonPresence}), (\textit{momPresence}, \textit{sonPresence}), and (\textit{dadPresence}, \textit{momPresence}, \textit{sonPresence}). If an app has several inputs, the possible configurations will be all possible combination of the inputs.

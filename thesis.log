@@ -1,0 +1,1303 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2018 09:15
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./ucr.cls (/usr/local/texlive/2016/texmf-dist/tex/latex/anysize/anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
+
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+\@Leftmargin=\dimen102
+\@Rightmargin=\dimen103
+\@Topmargin=\dimen104
+\@Bottommargin=\dimen105
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count79
+\Gm@cntv=\count80
+\c@Gm@tempcnt=\count81
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count82
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfsync/pdfsync.sty
+Package: pdfsync 2008/01/26 v1.1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen116
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count83
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count84
+\leftroot@=\count85
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count86
+\DOTSCASE@=\count87
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count88
+\c@MaxMatrixCols=\count89
+\dotsspace@=\muskip10
+\c@parentequation=\count90
+\dspbrk@lvl=\count91
+\tag@help=\toks17
+\row@=\count92
+\column@=\count93
+\maxfields@=\count94
+\andhelp@=\toks18
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fncylab/fncylab.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+\c@theorem=\count95
+
+Document Class: ucr 2006/04/30 v3.2.1 University of California Riverside Thesis
+ Class
+(./uct11.clo)
+\descriptionmargin=\dimen125
+\c@part=\count96
+\c@chapter=\count97
+\c@section=\count98
+\c@subsection=\count99
+\c@subsubsection=\count100
+\c@paragraph=\count101
+\c@subparagraph=\count102
+\c@figure=\count103
+\c@table=\count104
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count105
+\U@D=\dimen126
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+\c@blindtext=\count106
+\c@Blindtext=\count107
+\c@blind@countparstart=\count108
+\blind@countxx=\count109
+\blindtext@numBlindtext=\count110
+\blind@countyy=\count111
+\c@blindlist=\count112
+\c@blindlistlevel=\count113
+\c@blindlist@level=\count114
+\blind@listitem=\count115
+\c@blind@listcount=\count116
+\c@blind@levelcount=\count117
+\blind@mathformula=\count118
+\blind@Mathformula=\count119
+\c@blind@randomcount=\count120
+\c@blind@randommax=\count121
+\c@blind@pangramcount=\count122
+\c@blind@pangrammax=\count123
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen127
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count124
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count125
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count126
+\c@ALC@line=\count127
+\c@ALC@rem=\count128
+\c@ALC@depth=\count129
+\ALC@tlm=\skip44
+\algorithmicindent=\skip45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\par \ifdim \prevdepth 
+>-\p@ \vskip 10\p@ \relax \fi \setbox \@tempboxa \hbox {\vbox to\topskip {}#1: 
+#2\unskip \strut }\ifdim \wd \@tempboxa >\hsize {\ssp #1: #2\unskip \strut \par
+ } \else \hbox to\hsize {\hfil \unhbox \@tempboxa \hfil }\fi .
+\c@ContinuedFloat=\count130
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count131
+\c@subtable=\count132
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count133
+\Hy@pagecounter=\count134
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count135
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4322.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count136
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count137
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count138
+\c@Item=\count139
+\c@Hfootnote=\count140
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count141
+\c@bookmark@seq@number=\count142
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbding/bbding.sty
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box30
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks27
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen141
+\pgf@xa=\dimen142
+\pgf@xb=\dimen143
+\pgf@xc=\dimen144
+\pgf@y=\dimen145
+\pgf@ya=\dimen146
+\pgf@yb=\dimen147
+\pgf@yc=\dimen148
+\c@pgf@counta=\count143
+\c@pgf@countb=\count144
+\c@pgf@countc=\count145
+\c@pgf@countd=\count146
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen149
+\pgfmath@count=\count147
+\pgfmath@box=\box31
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count148
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen150
+\pgffor@skip=\dimen151
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count149
+\lst@gtempboxa=\box32
+\lst@token=\toks33
+\lst@length=\count150
+\lst@currlwidth=\dimen152
+\lst@column=\count151
+\lst@pos=\count152
+\lst@lostspace=\dimen153
+\lst@width=\dimen154
+\lst@newlines=\count153
+\lst@lineno=\count154
+\lst@maxwidth=\dimen155
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count155
+\lst@skipnumbers=\count156
+\lst@framebox=\box33
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+
+LaTeX Warning: Unused global option(s):
+    [letterpaper].
+
+(./thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(108.405pt, 614.295pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62pt
+* \textheight=607.22168pt
+* \oddsidemargin=36.135pt
+* \evensidemargin=36.135pt
+* \topmargin=0.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count157
+\scratchdimen=\dimen156
+\scratchbox=\box34
+\nofMPsegments=\count158
+\nofMParguments=\count159
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count160
+\MPscratchDim=\dimen157
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
+\everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Configuring pdfsync
+\PDFSYNC@ut=\write4
+\openout4 = `thesis.pdfsync'.
+
+\PDFSYNCf@li@=\count163
+\PDFSYNC@rder=\count164
+**** pdfsync.sty: Synchronizing at \everypar
+\PDFSYNCeveryp@r=\toks36
+**** pdfsync.sty: Synchronizing at \everymath
+\PDFSYNCeverym@th=\toks37
+**** pdfsync.sty: Synchronizing at \everyhbox
+\PDFSYNCeveryhb@x=\toks38
+**** pdfsync.sty: Synchronizing at \everyvbox
+\PDFSYNCeveryvb@x=\toks39
+**** pdfsync.sty: started
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 126.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count165
+)
+LaTeX Info: Redefining \ref on input line 126.
+LaTeX Info: Redefining \pageref on input line 126.
+LaTeX Info: Redefining \nameref on input line 126.
+
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write5
+\openout5 = `thesis.out'.
+
+ ABD: EveryShipout initializing macros
+\c@lstlisting=\count166
+ [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+
+ []
+
+[3] [4] [5] (./absm.tex [6] [7]) (./thesis.toc [8
+
+])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+ [9] (./thesis.lof)
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+ [10
+
+]
+(./thesis.lot)
+\tf@lot=\write8
+\openout8 = `thesis.lot'.
+
+ [11
+
+] (./introm.tex
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 
+      [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 
+      [2]pdfTeX warning (ext4): destination with the same identifier (name{page
+.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.146 
+       [3] [4]) (./backm.tex [5]
+Chapter 2.
+[6
+
+] [7] <SmartThingsArchitecture.pdf, id=497, 724.7075pt x 237.88875pt>
+File: SmartThingsArchitecture.pdf Graphic file (type pdf)
+
+<use SmartThingsArchitecture.pdf>
+Package pdftex.def Info: SmartThingsArchitecture.pdf used on input line 78.
+(pdftex.def)             Requested size: 216.81pt x 71.16753pt.
+ [8 <./SmartThingsArchitecture.pdf>]
+Excluding 'comment' comment. Excluding 'comment' comment.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+ [9] [10]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 190.
+
+(./code/virtualthermostat.groovy
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+) [11] Excluding 'comment' comment. [12])
+(./scopem.tex [13] [14]
+Chapter 3.
+[15
+
+] Excluding 'comment' comment.) (./overviewm.tex [16]
+Chapter 4.
+<chainreaction.pdf, id=677, 694.595pt x 151.56625pt>
+File: chainreaction.pdf Graphic file (type pdf)
+ <use chainreaction.pdf>
+Package pdftex.def Info: chainreaction.pdf used on input line 16.
+(pdftex.def)             Requested size: 252.94499pt x 55.19518pt.
+
+[17
+
+ <./chainreaction.pdf>]
+<iSanitizerArchitecture.pdf, id=700, 761.84625pt x 307.1475pt>
+File: iSanitizerArchitecture.pdf Graphic file (type pdf)
+
+<use iSanitizerArchitecture.pdf>
+Package pdftex.def Info: iSanitizerArchitecture.pdf used on input line 40.
+(pdftex.def)             Requested size: 224.03743pt x 90.32184pt.
+ [18 <./iSanitizerArchitecture.pdf>]
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 104.
+
+LaTeX Font Info:    Try loading font information for U+ding on input line 106.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbding/Uding.fd
+File: Uding.fd 1996/02/01 v1.0 BBding font definitions
+)
+Excluding 'comment' comment.) (./depm.tex [19] [20]
+Chapter 5.
+Excluding 'comment' comment.
+Overfull \hbox (2.52888pt too wide) in paragraph at lines 20--20
+[][][]\OT1/cmr/bx/n/10.95 Vertex's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[][][]\OT1/cmr/bx/n/10.95 Output
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 22--22
+[][][]\OT1/cmr/m/n/10.95 Brighten Dark
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[][][]\OT1/cmr/m/n/10.95 contact/open,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\OT1/cmr/m/n/10.95 il-lu-mi-
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 24--24
+[][][]\OT1/cmr/m/n/10.95 Let There Be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[][][]\OT1/cmr/m/n/10.95 switch/on,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[][][]\OT1/cmr/m/n/10.95 Auto Mode
+ []
+
+
+Overfull \hbox (8.53592pt too wide) in paragraph at lines 31--31
+[][][][]| 
+ []
+
+Excluding 'comment' comment.
+<DependencyGraphExample.pdf, id=748, 667.49374pt x 171.64125pt>
+File: DependencyGraphExample.pdf Graphic file (type pdf)
+
+<use DependencyGraphExample.pdf>
+Package pdftex.def Info: DependencyGraphExample.pdf used on input line 66.
+(pdftex.def)             Requested size: 252.94499pt x 65.04362pt.
+
+<related_set.pdf, id=749, 581.17125pt x 106.3975pt>
+File: related_set.pdf Graphic file (type pdf)
+ <use related_set.pdf>
+Package pdftex.def Info: related_set.pdf used on input line 74.
+(pdftex.def)             Requested size: 238.49121pt x 43.66222pt.
+
+[21
+
+] Excluding 'comment' comment. [22]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+[23 <./DependencyGraphExample.pdf> <./related_set.pdf>]) (./transm.tex [24]
+Chapter 6.
+[25
+
+] <IoTSanBanderaRelation.pdf, id=846, 844.15375pt x 458.71375pt>
+File: IoTSanBanderaRelation.pdf Graphic file (type pdf)
+
+<use IoTSanBanderaRelation.pdf>
+Package pdftex.def Info: IoTSanBanderaRelation.pdf used on input line 27.
+(pdftex.def)             Requested size: 274.6262pt x 149.23419pt.
+ [26 <./IoTSanBanderaRelation.pdf>]
+(./code/groovycode.groovy) (./code/javacode.java
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 5.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 5.
+) [27] [28])
+(./setm.tex [29]
+Chapter 7.
+) (./modelm.tex [30
+
+]
+Chapter 8.
+Excluding 'comment' comment. [31
+
+] Excluding 'comment' comment.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 69.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+ [32]
+Overfull \hbox (5.03961pt too wide) in paragraph at lines 127--127
+[][][][][]|\OT1/cmr/m/n/10.95 Thermostat, 
+ []
+
+[33] [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+<verificationlog.pdf, id=989, 1187.43625pt x 380.42125pt>
+File: verificationlog.pdf Graphic file (type pdf)
+
+<use verificationlog.pdf>
+Package pdftex.def Info: verificationlog.pdf used on input line 273.
+(pdftex.def)             Requested size: 440.84743pt x 141.23544pt.
+
+Overfull \hbox (7.22743pt too wide) in paragraph at lines 273--278
+ [] 
+ []
+
+[36]) (./outputm.tex [37 <./verificationlog.pdf>] [38] [39] [40]
+Chapter 9.
+) (./evalm.tex [41
+
+]
+Chapter 10.
+[42
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[][][]\OT1/cmr/bx/n/10.95 Violation
+ []
+
+
+Overfull \hbox (5.46407pt too wide) in paragraph at lines 87--87
+[][][]\OT1/cmr/bx/n/10.95 Number
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 87--87
+\OT1/cmr/bx/n/10.95 of vi-o-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[][][]\OT1/cmr/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[][][]\OT1/cmr/m/n/10.95 Repeated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[][][]\OT1/cmr/m/n/10.95 (Automated light,
+ []
+
+
+Overfull \vbox (13.60002pt too high) detected at line 95
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 96--96
+\OT1/cmr/m/n/10.95 Off When Close, Good-
+ []
+
+
+Overfull \hbox (3.41037pt too wide) in paragraph at lines 112--113
+[][][]\OT1/cmr/bx/n/10.95 Percentage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+\OT1/cmr/bx/n/10.95 of bad
+ []
+
+
+Overfull \hbox (42.67914pt too wide) in paragraph at lines 122--122
+[][][][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[][][]\OT1/cmr/m/n/10.95 Brighten Dark Places,
+ []
+
+
+Overfull \hbox (3.41037pt too wide) in paragraph at lines 152--153
+[][][]\OT1/cmr/bx/n/10.95 Percentage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+\OT1/cmr/bx/n/10.95 of bad
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 166--166
+[][][]\OT1/cmr/m/n/10.95 Light Fol-lows Me, Light
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 168--168
+[][][]\OT1/cmr/m/n/10.95 Light Fol-lows Me, Light
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 172--172
+[][][]\OT1/cmr/m/n/10.95 Multi-way On/Off Tog-
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 172--172
+\OT1/cmr/m/n/10.95 ded PEQ Door Open/-
+ []
+
+Excluding 'comment' comment. [44]
+<violation_example.pdf, id=1062, 569.12625pt x 121.45375pt>
+File: violation_example.pdf Graphic file (type pdf)
+
+<use violation_example.pdf>
+Package pdftex.def Info: violation_example.pdf used on input line 234.
+(pdftex.def)             Requested size: 245.71754pt x 52.4372pt.
+
+<device_failure.pdf, id=1063, 563.10374pt x 131.49126pt>
+File: device_failure.pdf Graphic file (type pdf)
+
+<use device_failure.pdf>
+Package pdftex.def Info: device_failure.pdf used on input line 242.
+(pdftex.def)             Requested size: 260.17244pt x 60.75356pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[][][]\OT1/cmr/bx/n/10.95 App's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[][][]\OT1/cmr/m/n/10.95 Battery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+[][][]\OT1/cmr/m/n/10.95 Bon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+\OT1/cmr/m/n/10.95 Voy-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+[][][]\OT1/cmr/m/n/10.95 Information leak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+\OT1/cmr/m/n/10.95 age (The com-mand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[][][]\OT1/cmr/m/n/10.95 Fake
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+\OT1/cmr/m/n/10.95 com-mand (gen-er-ated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+[][][]\OT1/cmr/m/n/10.95 Leaking
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 272--272
+\OT1/cmr/m/n/10.95 mo-tion sen-sor de-tects mo-tion), the
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 272--273
+[][][]\OT1/cmr/m/n/10.95 A light is turned on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[][][]\OT1/cmr/m/n/10.95 Water
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 274--275
+[][][]\OT1/cmr/m/n/10.95 When smoke is de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+[][][]\OT1/cmr/m/n/10.95 Fire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[][][]\OT1/cmr/m/n/10.95 Powers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[][][]\OT1/cmr/m/n/10.95 Information leak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+\OT1/cmr/m/n/10.95 age (The com-mand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[][][]\OT1/cmr/m/n/10.95 Presence
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 282--283
+[][][]\OT1/cmr/m/n/10.95 A light is turned on
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 282--283
+\OT1/cmr/m/n/10.95 when no-body is at
+ []
+
+
+LaTeX Warning: Float too large for page by 5.57835pt on input line 286.
+
+[45] Excluding 'comment' comment. Excluding 'comment' comment.
+Excluding 'comment' comment. [46 <./violation_example.pdf> <./device_failure.pd
+f>] Excluding 'comment' comment. Excluding 'comment' comment.) (./discm.tex
+[47] [48] [49] [50] [51] [52]
+Chapter 11.
+[53
+
+]
+Underfull \hbox (badness 2359) in paragraph at lines 33--34
+[][][]\OT1/cmr/m/n/10.95 ([]rule #7[], []rule #10[]),
+ []
+
+
+Overfull \hbox (5.65565pt too wide) in paragraph at lines 16--39
+[][][]\OT1/cmr/m/n/10.95 We have val-i-dated our ba-sic IFTTT pro-to-type im-pl
+e-men-ta-tion with 10 IoT rules/ap-
+ []
+
+[54] [55]) (./relatedm.tex [56]
+Chapter 12.
+[57
+
+]) (./concm.tex [58]
+Chapter 13.
+) (./thesis.bbl [59
+
+]
+Underfull \hbox (badness 7151) in paragraph at lines 60--66
+[][][]\OT1/cmr/m/n/10.95 Brian Belleville, Patrick Bier-nat, Adam Cotenoff, Kev
+in Hock, Tan-ner
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 60--66
+\OT1/cmr/m/n/10.95 Prynn, Sivaran-jani Sankar-alingam, Terry Sun, and Daniel Ma
+yer.  In-
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 60--66
+\OT1/cmr/m/n/10.95 ter-net of things se-cu-rity.  []$[][]\OT1/cmtt/m/n/10.95 ht
+tps : / / www . nccgroup . trust / us / our-[]research /
+ []
+
+[60
+
+] [61]
+Underfull \hbox (badness 3250) in paragraph at lines 178--181
+[][][]\OT1/cmr/m/n/10.95 SmartThings Com-mu-nity.  Com-mu-nity smart apps.  []$
+[][]\OT1/cmtt/m/n/10.95 https : / / community .
+ []
+
+[62]
+Underfull \hbox (badness 3058) in paragraph at lines 257--262
+[][][]\OT1/cmr/m/n/10.95 Joe Fil-ip-pello.  Smart-sense pres-ence sen-sor fail-
+ure.  []$[][]\OT1/cmtt/m/n/10.95 https : / / community .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--269
+[][][]\OT1/cmr/m/n/10.95 D. Fisher.  Pair of bugs open hon-ey-well home con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--269
+\OT1/cmr/m/n/10.95 trollers up to easy hacks.  []$[][]\OT1/cmtt/m/n/10.95 https
+ : / / threatpost . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--269
+\OT1/cmtt/m/n/10.95 pair-[]of-[]bugs-[]open-[]honeywell-[]home-[]controllers-[]
+up-[]to-[]easy-[]hacks / 113965/$[]\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--316
+[][][]\OT1/cmr/m/n/10.95 Amy Groden-Morrison.  How the in-ter-net of things wil
+l drive mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--316
+\OT1/cmr/m/n/10.95 bile app de-vel-op-ment.  []$[][]\OT1/cmtt/m/n/10.95 https :
+ / / www . alphasoftware . com / blog /
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 347--352
+\OT1/cmtt/m/n/10.95 net / 2015 / 4 / 7 / 11561182 / a-[]hackers-[]eye-[]view-[]
+of-[]the-[]internet-[]of-[]things$[]\OT1/cmr/m/n/10.95 ,
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 418--423
+[][][]\OT1/cmr/m/n/10.95 Intel.  Smart build-ings.  []$[][]\OT1/cmtt/m/n/10.95 
+https : / / www . intel . com / content / www / us / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--430
+[][][]\OT1/cmr/m/n/10.95 BI In-tel-li-gence.  Here's how the in-ter-net of thin
+gs will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--430
+\OT1/cmr/m/n/10.95 ex-plode by 2020.  []$[][]\OT1/cmtt/m/n/10.95 http : / / www
+ . businessinsider . com /
+ []
+
+
+Overfull \hbox (0.77151pt too wide) in paragraph at lines 425--430
+\OT1/cmtt/m/n/10.95 iot-[]ecosystem-[]internet-[]of-[]things-[]forecasts-[]and-
+[]business-[]opportunities /
+ []
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 494--497
+[][][]\OT1/cmr/m/n/10.95 Logitech.  Har-mony hub.  []$[][]\OT1/cmtt/m/n/10.95 h
+ttps : / / www . logitech . com / en-[]us / product /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--504
+\OT1/cmtt/m/n/10.95 com / 2015 / 08 / 07 / critical-[]flaw-[]ided-[]in-[]zigbee
+-[]smart-[]home-[]devices/$[]\OT1/cmr/m/n/10.95 , June
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--530
+\OT1/cmtt/m/n/10.95 / / www . businessinsider . com / internet-[]of-[]things-[]
+security-[]privacy-[]2016-[]8$[]\OT1/cmr/m/n/10.95 ,
+ []
+
+[66] [67]
+Underfull \hbox (badness 3503) in paragraph at lines 711--716
+[][][]\OT1/cmr/m/n/10.95 SmartThings.  Smart-things com-mu-nity on github.  []$
+[][]\OT1/cmtt/m/n/10.95 https : / / github . com /
+ []
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 792--797
+[][][]\OT1/cmr/m/n/10.95 Evan Wilkins.  De-vices show-ing up as `this de-vice i
+s un-avail-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 792--797
+\OT1/cmr/m/n/10.95 able at the mo-ment'.  []$[][]\OT1/cmtt/m/n/10.95 https : / 
+/ community . smartthings . com / t /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 792--797
+\OT1/cmtt/m/n/10.95 devices-[]showing-[]up-[]as-[]this-[]device-[]is-[]unavaila
+ble-[]at-[]the-[]moment / 94724$[]\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 812--817
+[][][]\OT1/cmr/m/n/10.95 Yale.  Yale as-sure lock.  []$[][]\OT1/cmtt/m/n/10.95 
+https : / / www . yalehome . com / en / yale / yalehome /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--817
+\OT1/cmtt/m/n/10.95 residential / yale-[]real-[]living / assure-[]lock / yrl-[]
+assurelock-[]bluetooth/$[]\OT1/cmr/m/n/10.95 ,
+ []
+
+[69]) (./appendix.tex) [70]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+ (./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 295AF7DC24BBF2CCFADFF5AA76552C08;3171.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 85 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 15976 strings out of 493014
+ 266924 string characters out of 6133351
+ 489610 words of memory out of 5000000
+ 18834 multiletter control sequences out of 15000+600000
+ 15016 words of font info for 54 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 42i,25n,55p,1628b,1638s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/tunguyen/Library/texlive/2016/texmf-var/fonts/pk/ljfou
+r/public/bbding/bbding10.657pk></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsl10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.
+pfb>
+Output written on thesis.pdf (81 pages, 540813 bytes).
+PDF statistics:
+ 1533 PDF objects out of 1728 (max. 8388607)
+ 1366 compressed objects within 14 object streams
+ 360 named destinations out of 1000 (max. 500000)
+ 446 words of extra memory for PDF output out of 10000 (max. 10000000)
+

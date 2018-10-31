@@ -1,0 +1,23 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SmartThings architecture overview.\relax }}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces {\color {black}Example of input info needed from users to configure the app \textit {Virtual Thermostat}.}\relax }}{11}{figure.caption.5}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Chain of events in an IoT system.\relax }}{17}{figure.caption.6}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \unhbox \voidb@x \hbox {\textsc {IotSan}}\xspace architecture overview.\relax }}{18}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a dependency graph and its corresponding related sets.\relax }}{23}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \leavevmode {\color {black}\unhbox \voidb@x \hbox {\textsc {IotSan}}\xspace is built around Bandera.}\relax }}{26}{figure.caption.12}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example of translating a Groovy method into the corresponding Java's method.\relax }}{28}{figure.caption.13}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Example violation log (filtered).\relax }}{37}{figure.caption.16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Violation examples: boxes depict apps and high level abstractions are shown for inputs/outputs.\relax }}{46}{figure.caption.20}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

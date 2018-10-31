@@ -1,0 +1,3 @@
+private onSwitches() {
+	switches + onSwitches
+}

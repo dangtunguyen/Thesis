@@ -1,0 +1,27 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison of \unhbox \voidb@x \hbox {\textsc {IotSan}}\xspace and related work.\relax }}{20}{table.caption.8}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces An example to showcase the construction of a dependency graph.\relax }}{22}{table.caption.9}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Related sets of the dependency graph in Figure \ref {dgconstructionfg}: (a) Initial related sets, (b) Potential conflicting sets, and (c) Final related sets.\relax }}{24}{table.caption.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Sample safe physical states.\relax }}{39}{table.caption.14}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Sample safe physical states (continue).\relax }}{40}{table.caption.15}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {10.1}{\ignorespaces Verification results with market apps.\relax }}{45}{table.caption.17}
+\contentsline {table}{\numberline {10.2}{\ignorespaces Verification result with market apps, with volunteer configuration.\relax }}{49}{table.caption.18}
+\contentsline {table}{\numberline {10.3}{\ignorespaces Verification result with market apps, with volunteer configuration (continue).\relax }}{50}{table.caption.19}
+\contentsline {table}{\numberline {10.4}{\ignorespaces Verification result of ContexIoT's malicious apps.\relax }}{51}{table.caption.21}
+\contentsline {table}{\numberline {10.5}{\ignorespaces Scalability with dependency graphs\relax }}{52}{table.caption.22}
+\contentsline {table}{\numberline {10.6}{\ignorespaces Runtimes with concurrent and sequential design.\relax }}{52}{table.caption.23}
+\contentsline {table}{\numberline {10.7}{\ignorespaces Verification time vs. number of events.\relax }}{52}{table.caption.24}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {11.1}{\ignorespaces Verification results with IFTTT rules.\relax }}{55}{table.caption.25}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

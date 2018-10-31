@@ -1,0 +1,829 @@
+\begin{thebibliography}{100}
+
+\bibitem{6983801}
+M.~Ahmad.
+\newblock Reliability models for the internet of things: A paradigm shift.
+\newblock In {\em 2014 IEEE International Symposium on Software Reliability
+  Engineering Workshops}, pages 52--59, Nov 2014.
+
+\bibitem{5747474}
+R.~Alena, R.~Gilstrap, J.~Baldwin, T.~Stone, and P.~Wilson.
+\newblock Fault tolerance in zigbee wireless sensor networks.
+\newblock In {\em 2011 Aerospace Conference}, pages 1--15, March 2011.
+
+\bibitem{Ali2013:ami}
+M.~Q. Ali and E.~Al-Shaer.
+\newblock Probabilistic model checking for ami intrusion detection.
+\newblock In {\em Proc. {IEEE} Conference on Smart Grid Communications
+  (SmartGridComm)}, pages 468--473, Vancouver, Canada, October 2013.
+
+\bibitem{Aloul:2003:FFE:764808.764839}
+Fadi~A. Aloul, Igor~L. Markov, and Karem~A. Sakallah.
+\newblock Force: A fast and easy-to-implement variable-ordering heuristic.
+\newblock In {\em Proceedings of the 13th ACM Great Lakes Symposium on VLSI},
+  GLSVLSI '03, pages 116--119, 2003.
+
+\bibitem{Amazon:alexa}
+Amazon.
+\newblock Alexa.
+\newblock \url{https://developer.amazon.com/alexa}, June 2018.
+
+\bibitem{Apple:homekit}
+Apple.
+\newblock Homekit.
+\newblock \url{https://developer.apple.com/homekit/}, June 2018.
+
+\bibitem{Avrunin2000:benchmarking}
+George~S. Avrunin, James~C. Corbett, and Matthew~B. Dwyer.
+\newblock Benchmarking finite-state verifiers.
+\newblock {\em International Journal on Software Tools for Technology
+  Transfer}, 2(4):317--320, Mar 2000.
+
+\bibitem{Baier:modelchecking}
+C.~Baier and J.~P. Katoen.
+\newblock {\em Principles of Model Checking}.
+\newblock The MIT Press, Cambridge, Massachusetts, London, England, 2008.
+
+\bibitem{Beer1997}
+I.~Beer, S.~Ben-David, C.~Eisner, D.~Geist, L.~Gluhovsky, T.~Heyman,
+  A.~Landver, P.~Paanah, Y.~Rodeh, G.~Ronin, and Y.~Wolfsthal.
+\newblock {\em RuleBase: Model checking at IBM}, pages 480--483.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1997.
+
+\bibitem{Beer1996}
+I.~Beer, S.~Ben-David, C.~Eisner, and A.~Landver.
+\newblock Rulebase: an industry-oriented formal verification tool.
+\newblock In {\em 33rd Design Automation Conference Proceedings, 1996}, pages
+  655--660, Jun 1996.
+
+\bibitem{Brian:internreport}
+Brian Belleville, Patrick Biernat, Adam Cotenoff, Kevin Hock, Tanner Prynn,
+  Sivaranjani Sankaralingam, Terry Sun, and Daniel Mayer.
+\newblock Internet of things security.
+\newblock
+  \url{https://www.nccgroup.trust/us/our-research/internet-of-things-security/},
+  2018.
+
+\bibitem{2018arXiv180906962B}
+Z.~{Berkay Celik}, E.~{Fernandes}, E.~{Pauley}, G.~{Tan}, and P.~{McDaniel}.
+\newblock {Program Analysis of Commodity IoT Applications for Security and
+  Privacy: Challenges and Opportunities}.
+\newblock {\em ArXiv e-prints}, September 2018.
+
+\bibitem{Bertino:2016:ITS:3023158.3013520}
+Elisa Bertino, Kim-Kwang~Raymond Choo, Dimitrios Georgakopolous, and Surya
+  Nepal.
+\newblock Internet of things ({IoT}): Smart and secure service delivery.
+\newblock {\em ACM Trans. Internet Technol.}, 16(4), December 2016.
+
+\bibitem{s140814932}
+August Betzler, Carles Gomez, Ilker Demirkol, and Josep Paradells.
+\newblock A holistic approach to zigbee performance enhancement for home
+  automation networks.
+\newblock {\em Sensors}, 14(8):14932--14970, 2014.
+
+\bibitem{10.1007/978-3-319-70389-3_7}
+Dirk Beyer and Thomas Lemberger.
+\newblock Software verification: Testing vs. model checking.
+\newblock In {\em Hardware and Software: Verification and Testing}, pages
+  99--114. Springer International Publishing, 2017.
+
+\bibitem{Armin2001:verifyingsequentialbehavior}
+Armin Biere.
+\newblock Verifying sequential behavior with model checking.
+\newblock In {\em Proc. {IEEE} Conference on ASIC}, pages 29--32, Shanghai,
+  China, October 2001.
+
+\bibitem{Biere1999:BMC}
+Armin Biere, Alessandro Cimatti, Edmund Clarke, and Yunshan Zhu.
+\newblock {\em Symbolic Model Checking without BDDs}, pages 193--207.
+\newblock Springer, Heidelberg, 1999.
+
+\bibitem{Bryant1986}
+R.~E. Bryant.
+\newblock Graph-based algorithms for boolean function manipulation.
+\newblock In {\em {IEEE} Transaction on Computers}, volume~35, pages 667--691.
+  1986.
+
+\bibitem{Christoph2015}
+Christoph Busold, Stephan Heuser, Jon Rios, Ahmad-Reza Sadeghi, and N.~Asokan.
+\newblock Smart and secure cross-device apps for the internet of advanced
+  things.
+\newblock In {\em Proc. Financial Cryptography and Data Security}, Puerto Rico,
+  US, 2015.
+
+\bibitem{Cattel94}
+T.~Cattel.
+\newblock Modelization and verification of a multiprocessor realtime os kernel.
+\newblock In {\em Proc. 7th FORTE Conference}, pages 35--51, Bern, Switzerland,
+  1994.
+
+\bibitem{217632}
+Z.~Berkay Celik, Leonardo Babun, Amit~Kumar Sikder, Hidayet Aksu, Gang Tan,
+  Patrick McDaniel, and A.~Selcuk Uluagac.
+\newblock Sensitive information tracking in commodity iot.
+\newblock In {\em {USENIX} Security 18}, Baltimore, MD, 2018.
+
+\bibitem{215955}
+Z.~Berkay Celik, Patrick McDaniel, and Gang Tan.
+\newblock Soteria: Automated {IoT} safety and security analysis.
+\newblock In {\em {USENIX} {ATC} 18}, Boston, MA, 2018.
+
+\bibitem{7581459}
+H.~Chandra, E.~Anggadjaja, P.~S. Wijaya, and E.~Gunawan.
+\newblock Internet of things: Over-the-air (ota) firmware update in lightweight
+  mesh network protocol for smart urban development.
+\newblock In {\em {APCC} 16}, pages 115--118, Aug 2016.
+
+\bibitem{Chaves91}
+J.~Chaves.
+\newblock Formal methods at at\&t, an industrial usage report.
+\newblock In {\em Proc. 4th FORTE Conference}, pages 83--90, Sydney, Australia,
+  1991.
+
+\bibitem{Chen2013:contextual}
+K.~Z. Chen, N.~Johnson, V.~D'Silva, S.~Dai, K.~MacNamara, T.~Magrino, E.~Wu,
+  M.~Rinard, and D.~Song.
+\newblock Contextual policy enforcement in android applications with permission
+  event graphs.
+\newblock In {\em Proc. Network and Distributed System Security Symposium
+  ({NDSS}'13)}, 2013.
+
+\bibitem{Choi2007:nusmvtospin}
+Yunja Choi.
+\newblock From nusmv to spin: Experiences with model checking flight guidance
+  systems.
+\newblock {\em Springer Formal Methods in System Design}, 30(3):199--216, Jun
+  2007.
+
+\bibitem{Cimatti1999:NuSMV}
+A.~Cimatti, E.~Clarke, F.~Giunchiglia, and M.~Roveri.
+\newblock Nusmv: A new symbolic model verifier.
+\newblock In {\em Proc. of the 11th International Conference on Computer Aided
+  Verification}, pages 495--499, London, UK, 1999.
+
+\bibitem{Clarke1982}
+Edmund~M. Clarke and E.~Allen Emerson.
+\newblock {\em Design and synthesis of synchronization skeletons using
+  branching time temporal logic}, pages 52--71.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1982.
+
+\bibitem{Clarke2012}
+Edmund~M. Clarke, William Klieber, Milo{\v{s}} Nov{\'a}{\v{c}}ek, and Paolo
+  Zuliani.
+\newblock {\em Tools for Practical Software Verification}.
+\newblock Springer, Heidelberg, 2012.
+
+\bibitem{STCommunitySmartApps}
+SmartThings Community.
+\newblock Community smart apps.
+\newblock \url{https://community.smartthings.com/c/smartapps}, September 2018.
+
+\bibitem{Cordeiro2012:ESBMC}
+Lucas Cordeiro, Jeremy Morse, Denis Nicole, and Bernd Fischer.
+\newblock {\em Context-Bounded Model Checking with ESBMC 1.17}, pages 534--537.
+\newblock Springer, Heidelberg, 2012.
+
+\bibitem{Costin:analysis}
+A.~Costin, J.~Zaddach, A.~Francillon, and D.~Balzarotti.
+\newblock A large-scale analysis of the security of embedded firmwares.
+\newblock In {\em Proc. {USENIX} Security 14}, pages 95--110, San Diego, CA,
+  USA, August 2014.
+
+\bibitem{190480}
+Jason Croft, Ratul Mahajan, Matthew Caesar, and Madan Musuvathi.
+\newblock Systematically exploring the behavior of control programs.
+\newblock In {\em {USENIX} {ATC} 15}, pages 165--176, Santa Clara, CA, 2015.
+
+\bibitem{CropMetrics:iot}
+CropMetrics.
+\newblock Irrigation management.
+\newblock \url{http://cropmetrics.com/}, 2018.
+
+\bibitem{Dolly2016}
+Dolly Das and Bobby Sharma.
+\newblock General survey on security issues on internet of things.
+\newblock {\em International Journal of Computer Applications}, 139(2), 2016.
+
+\bibitem{deMoura:SMT}
+Leonardo De~Moura and Nikolaj Bj{\o}rner.
+\newblock Satisfiability modulo theories: Introduction and applications.
+\newblock {\em Commun. ACM}, 54(9):69--77, September 2011.
+
+\bibitem{Dong1999:fighting}
+Yifei Dong, Xiaoqun Du, Y.~S. Ramakrishna, C.~R. Ramakrishnan, I.~V.
+  Ramakrishnan, Scott~A. Smolka, Oleg Sokolsky, Eugene~W. Stark, and David~S.
+  Warren.
+\newblock {\em Fighting Livelock in the i-Protocol: A Comparative Study of
+  Verification Tools}, pages 74--88.
+\newblock Springer, Heidelberg, 1999.
+
+\bibitem{Ecobee:thermostat}
+Ecobee.
+\newblock Ecobee thermostat.
+\newblock \url{https://www.ecobee.com/}, June 2018.
+
+\bibitem{Eisner2002:comparing}
+Cindy Eisner and Doron Peled.
+\newblock {\em Comparing Symbolic and Explicit Model Checking of a Software
+  System}, pages 230--239.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2002.
+
+\bibitem{Roya:networkprotocol}
+Roya Ensafi, Jong~Chun Park, Deepak Kapur, and Jedidiah~R. Crandall.
+\newblock Idle port scanning and non-interference analysis of network protocol
+  stacks using model checking.
+\newblock In {\em {USENIX} Security 10}, USA, August 2010.
+
+\bibitem{410627}
+E.~Felt, G.~York, R.~Brayton, and A.~Sangiovanni-Vincentelli.
+\newblock Dynamic variable reordering for bdd minimization.
+\newblock In {\em Proceedings of EURO-DAC 93 and EURO-VHDL 93- European Design
+  Automation Conference}, pages 130--135, Sep 1993.
+
+\bibitem{Earlence:smarthomesecurityanalysis}
+E.~Fernandes, J.~Jung, and A.~Prakash.
+\newblock Security analysis of emerging smart home applications.
+\newblock In {\em Proc. {IEEE} Symposium on Security and Privacy}, pages
+  636--654, San Jose, CA, USA, May 2016.
+
+\bibitem{Earlence:flowfence}
+E.~Fernandes, J.~Paupore, A.~Rahmati, D.~Simionato, M.~Conti, and A.~Prakash.
+\newblock Flowfence: Practical data protection for emerging {IoT} application
+  frameworks.
+\newblock In {\em {USENIX} Security 16}, pages 531--548, USA, August 2016.
+
+\bibitem{Samsung:smartthingscom4}
+Joe Filippello.
+\newblock Smartsense presence sensor failure.
+\newblock
+  \url{https://community.smartthings.com/t/smartsense-presence-sensor-failure/16644/9},
+  June 2018.
+
+\bibitem{Fisher:honeywellbug}
+D.~Fisher.
+\newblock Pair of bugs open honeywell home controllers up to easy hacks.
+\newblock
+  \url{https://threatpost.com/pair-of-bugs-open-honeywell-home-controllers-up-to-easy-hacks/113965/},
+  June 2018.
+
+\bibitem{Fouladi2013}
+B.~Fouladi and S.~Ghanoun.
+\newblock {\em Honey, I'm home!! - hacking z-wave home automation systems}.
+\newblock Black Hat, Las Vegas, NV, USA, 2013.
+
+\bibitem{FULLER201744}
+Jonathan~D. Fuller, Benjamin~W. Ramsey, Mason~J. Rice, and John~M. Pecarina.
+\newblock Misuse-based detection of z-wave network attacks.
+\newblock {\em Computers and Security}, 64:44--58, 2017.
+
+\bibitem{Godefroid2018}
+Patrice Godefroid and Koushik Sen.
+\newblock {\em Combining Model Checking and Testing}, pages 613--649.
+\newblock Springer International Publishing, 2018.
+
+\bibitem{Google:weave}
+Google.
+\newblock Weave.
+\newblock \url{https://developers.nest.com/weave/}, June 2018.
+
+\bibitem{Gosain2015}
+Anjana Gosain and Ganga Sharma.
+\newblock {\em A Survey of Dynamic Program Analysis Techniques and Tools},
+  pages 113--122.
+\newblock Springer International Publishing, Cham, 2015.
+
+\bibitem{Samsung:smartthingscom1}
+Dorset Gray.
+\newblock Devices offline and unavailable.
+\newblock
+  \url{https://community.smartthings.com/t/devices-offline-and-unavailable/100248},
+  June 2018.
+
+\bibitem{Groce2014}
+Alex Groce, Klaus Havelund, Gerard Holzmann, Rajeev Joshi, and Ru-Gang Xu.
+\newblock Establishing flight software reliability: testing, model checking,
+  constraint-solving, monitoring and learning.
+\newblock {\em Annals of Mathematics and Artificial Intelligence}, pages
+  315--349, 2014.
+
+\bibitem{alpha}
+Amy Groden-Morrison.
+\newblock How the internet of things will drive mobile app development.
+\newblock
+  \url{https://www.alphasoftware.com/blog/internet-of-things-will-drive-mobile-app-development/},
+  June 2018.
+
+\bibitem{Groovy:dynamic}
+Groovy.
+\newblock Type checking extensions.
+\newblock
+  \url{http://docs.groovy-lang.org/next/html/documentation/type-checking-extensions.html},
+  June 2018.
+
+\bibitem{Seth2016:smartgrid}
+Seth~T. Hamman, Kenneth~M. Hopkinson, and Jose~E. Fadul.
+\newblock A model checking approach to testing the reliability of smart grid
+  protection systems.
+\newblock In {\em {IEEE} Transaction on Power Delivery}, volume~PP, pages 1--8.
+  2016.
+
+\bibitem{Hatcliff2001}
+John Hatcliff and Matthew Dwyer.
+\newblock {\em Using the Bandera Tool Set to Model-Check Properties of
+  Concurrent Java Software}, pages 39--58.
+\newblock Springer, Heidelberg, 2001.
+
+\bibitem{Bandera:intro}
+John Hatcliff and Matthew Dwyer.
+\newblock About bandera.
+\newblock \url{http://bandera.projects.cs.ksu.edu/}, June 2018.
+
+\bibitem{NuSMV:intro}
+John Hatcliff and Matthew Dwyer.
+\newblock About nusmv, September 2018.
+
+\bibitem{Hesseldahl:hackereye}
+A.~Hesseldahl.
+\newblock A hacker's-eye view of the internet of things.
+\newblock
+  \url{https://www.recode.net/2015/4/7/11561182/a-hackers-eye-view-of-the-internet-of-things},
+  June 2018.
+
+\bibitem{Ho2016:smartlock}
+G.~Ho, D.~Leung, P.~Mishra, A.~Hosseini, D.~Song, and D.~Wagner.
+\newblock Smart locks: Lessons for securing commodity internet of things
+  devices.
+\newblock In {\em {ACM} {ASIACCS} 16}, pages 461--472, China, 2016.
+
+\bibitem{Holzmann1987:bitstatehashing}
+G.~J. Holzmann.
+\newblock On limits and possibilities of automated protocol analysis.
+\newblock In {\em Proc. 7th IFIP Workshop on Protocol Specification, Testing,
+  and Verification}, pages 137--161, North-Holland Publ., Amsterdam, 1987.
+
+\bibitem{Holzmann94:prove}
+G.~J. Holzmann.
+\newblock Proving the value of formal methods.
+\newblock In {\em Proc. 7th FORTE Conference}, pages 385--396, Bern,
+  Switzerland, 1994.
+
+\bibitem{Holzmann94:NewCoRe}
+G.~J. Holzmann.
+\newblock The theory and practice of a formal method: Newcore.
+\newblock In {\em 13th IFIP World Computer Congress}, Germany, 1994.
+
+\bibitem{Holzmann:spin}
+G.~J. Holzmann.
+\newblock The model checker spin.
+\newblock In {\em {IEEE} Transaction on Software Engineering}, volume~23, pages
+  279--295. 1997.
+
+\bibitem{Holzmann1998}
+G.~J. Holzmann.
+\newblock An analysis of bitstate hashing.
+\newblock In {\em Formal Methods in System Design}, volume~13, pages 289--307,
+  1998.
+
+\bibitem{Holzmann1999:iprotocol}
+Gerard~J. Holzmann.
+\newblock {\em The Engineering of a Model Checker: the Gnu i-Protocol Case
+  Study Revisited.}, pages 232--244.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1999.
+
+\bibitem{IBM:iot}
+IBM.
+\newblock Ibm iot for manufacturing.
+\newblock
+  \url{https://www.ibm.com/internet-of-things/industries/iot-manufacturing},
+  2018.
+
+\bibitem{iftttpage}
+IFTTT.
+\newblock Ifttt homepage.
+\newblock \url{https://ifttt.com/}, June 2018.
+
+\bibitem{Satoshi2013}
+Satoshi Ikeda, Masahiro Jibiki, and Yasushi Kuno.
+\newblock Coverage estimation in model checking with bitstate hashing.
+\newblock In {\em {IEEE} Transaction on Software Engineering}, volume~39, pages
+  477--486. 2013.
+
+\bibitem{TI:CC2531}
+Texas Instruments.
+\newblock Ezsync cc2531 evaluation module usb dongle.
+\newblock \url{http://www.ti.com/tool/CC2531EMK}, June 2018.
+
+\bibitem{Intel:smartbuildings}
+Intel.
+\newblock Smart buildings.
+\newblock
+  \url{https://www.intel.com/content/www/us/en/internet-of-things/smart-building-solutions.html},
+  June 2018.
+
+\bibitem{iotexp}
+BI~Intelligence.
+\newblock Here's how the internet of things will explode by 2020.
+\newblock
+  \url{http://www.businessinsider.com/iot-ecosystem-internet-of-things-forecasts-and-business-opportunities/2016-2},
+  June 2018.
+
+\bibitem{jhala2009software}
+Ranjit Jhala and Rupak Majumdar.
+\newblock Software model checking.
+\newblock {\em ACM Computing Surveys (CSUR)}, 41(4):21, 2009.
+
+\bibitem{Jia:contexiot}
+Y.~J. Jia, Q.~A. Chen, S.~Wangy, A.~Rahmati, E.~Fernandes, Z.~M. Mao, and
+  A.~Prakash.
+\newblock {ContexIoT}: Towards providing contextual integrity to appified {IoT}
+  platforms.
+\newblock In {\em {NDSS}'17}, USA, March 2017.
+
+\bibitem{6296948}
+M.~Kovatsch, S.~Mayer, and B.~Ostermaier.
+\newblock Moving application logic from the firmware to the cloud: Towards the
+  thin server architecture for the internet of things.
+\newblock In {\em 2012 Sixth International Conference on Innovative Mobile and
+  Internet Services in Ubiquitous Computing}, pages 751--756, July 2012.
+
+\bibitem{Kroening2014:CBMC}
+Daniel Kroening and Michael Tautschnig.
+\newblock {\em CBMC -- C Bounded Model Checker}, pages 389--391.
+\newblock Springer, Heidelberg, 2014.
+
+\bibitem{6392527}
+J.~S. Lee, Yuan-Ming Wang, and C.~C. Shen.
+\newblock Performance evaluation of zigbee-based sensor networks using
+  empirical measurements.
+\newblock In {\em IEEE {CYBER} 12}, pages 58--63, May 2012.
+
+\bibitem{Flavio2003:symbolicmodelchecking}
+Flavio Lerda, Nishant Sinha, and Michael Theobald.
+\newblock Symbolic model checking of software.
+\newblock {\em Elsevier Electronic Notes in Theoretical Computer Science},
+  89:480--498, September 2003.
+
+\bibitem{Lili:staticanalysisreview}
+Li~Li, T.~F. Bissyande, M.~Papadakisa, S.~Rasthoferb, A.~Bartela, D.~Octeauc,
+  J.~Kleina, and Y.~L. Traon.
+\newblock Static analysis of android apps: A systematic literature review.
+\newblock In {\em {Elsevier} Information and Software Technology}, volume~88,
+  pages 67--95. 2017.
+
+\bibitem{Liang:2015:SBI:2737095.2737115}
+Chieh-Jan~Mike Liang, B\"{o}rje~F. Karlsson, Nicholas~D. Lane, Feng Zhao,
+  Junbei Zhang, Zheyi Pan, Zhao Li, and Yong Yu.
+\newblock Sift: Building an internet of safe things.
+\newblock In {\em {ACM IPSN '15}}, pages 298--309, USA, 2015.
+
+\bibitem{Lin94}
+F.~J. Lin.
+\newblock Specification and validation of communications in client/server
+  models.
+\newblock In {\em Proc. 1994 Int. Conference on Network Protocols ({ICNP}'94)},
+  pages 108--116, Boston, Mass., 1994.
+
+\bibitem{Lluch-Lafuente2002}
+Alberto Lluch-Lafuente, Stefan Edelkamp, and Stefan Leue.
+\newblock {\em Partial Order Reduction in Directed Model Checking}, pages
+  112--127.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2002.
+
+\bibitem{Logitech:harmony}
+Logitech.
+\newblock Harmony hub.
+\newblock \url{https://www.logitech.com/en-us/product/harmony-hub}, June 2018.
+
+\bibitem{Lomas:zigbeeflaw}
+N.~Lomas.
+\newblock Critical flaw ided in zigbee smart home devices.
+\newblock
+  \url{https://techcrunch.com/2015/08/07/critical-flaw-ided-in-zigbee-smart-home-devices/},
+  June 2018.
+
+\bibitem{McMillan1993}
+K.~L. McMillan.
+\newblock {\em Symbolic Model Checking: An Approach to the State Explosion
+  Problem}.
+\newblock Kluwer Academic Publishers, 1993.
+
+\bibitem{Medria:iot}
+{Medria Solution}.
+\newblock Livestock monitoring.
+\newblock \url{http\protect\kern+.2222em\relax//www.medria.fr/en/solutions/},
+  2018.
+
+\bibitem{6379462}
+M.~U. Memon, L.~X. Zhang, and B.~Shaikh.
+\newblock Packet loss ratio evaluation of the impact of interference on zigbee
+  network caused by wi-fi (ieee 802.11b/g) in e-health environment.
+\newblock In {\em 2012 IEEE 14th International Conference on e-Health
+  Networking, Applications and Services (Healthcom)}, pages 462--465, Oct 2012.
+
+\bibitem{iot_security_news}
+Andrew Meola.
+\newblock How the internet of things will affect security \& privacy.
+\newblock
+  \url{http://www.businessinsider.com/internet-of-things-security-privacy-2016-8},
+  June 2018.
+
+\bibitem{Merz2012:LLBMC}
+Florian Merz, Stephan Falke, and Carsten Sinz.
+\newblock {\em LLBMC: Bounded Model Checking of C and C++ Programs Using a
+  Compiler IR}, pages 146--161.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2012.
+
+\bibitem{Mi:2017:ECI:3131365.3131369}
+Xianghang Mi, Feng Qian, Ying Zhang, and XiaoFeng Wang.
+\newblock An empirical characterization of ifttt: Ecosystem, usage, and
+  performance.
+\newblock In {\em ACM {IMC '17}}, pages 398--404, USA, 2017.
+
+\bibitem{Microsoft:iot}
+Microsoft.
+\newblock Azure {IoT}.
+\newblock \url{https://azure.microsoft.com/en-us/services/iot-hub/}, June 2018.
+
+\bibitem{Microsoft:manufacturing}
+Microsoft.
+\newblock Microsoft iot for manufacturing.
+\newblock
+  \url{https://www.microsoft.com/en-us/internet-of-things/manufacturing}, 2018.
+
+\bibitem{Mohsin2016:IoTSAT}
+M.~Mohsin, Z.~Anwar, G.~Husari, E.~Al-Shaer, and M.~A. Rahman.
+\newblock {IoTSAT}: A formal framework for security analysis of the internet of
+  things ({IoT}).
+\newblock In {\em {IEEE} CNS 16}, pages 180--188, USA, October 2016.
+
+\bibitem{Mohsin2017:IoTChecker}
+M~Mohsin, Z.~Anwar, Farhat Zaman, and Ehab Al-Shaer.
+\newblock {IoTChecker}: A data-driven framework for security analytics of
+  internet of things configurations.
+\newblock {\em Elsevier Computer and Security}, 70:199--223, September 2017.
+
+\bibitem{Mohsin2017:IoTRiskAnalyzer}
+M~Mohsin, MU~Sardar, O.~Hasan, and Z.~Anwar.
+\newblock {IoTRiskAnalyzer}: A probabilistic model checking based framework for
+  formal risk analytics of the internet of things.
+\newblock {\em IEEE Acess}, 5:5494--5505, April 2017.
+
+\bibitem{Newcomb:2017:ICI:3133850.3133860}
+Julie~L. Newcomb, Satish Chandra, Jean-Baptiste Jeannin, Cole Schlesinger, and
+  Manu Sridharan.
+\newblock Iota: A calculus for internet of things automation.
+\newblock In {\em Proceedings of the 2017 ACM SIGPLAN International Symposium
+  on New Ideas, New Paradigms, and Reflections on Programming and Software},
+  Onward! 2017, pages 119--133, 2017.
+
+\bibitem{5506358}
+D.~T. Nguyen, W.~Choi, M.~T. Ha, and H.~Choo.
+\newblock A novel multi-ack based data forwarding scheme in wireless sensor
+  networks.
+\newblock In {\em 2010 IEEE Wireless Communication and Networking Conference},
+  pages 1--6, April 2010.
+
+\bibitem{2018arXiv181009551N}
+D.~T. {Nguyen}, C.~{Song}, Z.~{Qian}, S.~V. {Krishnamurthy}, E.~J.~M.
+  {Colbert}, and P.~{McDaniel}.
+\newblock {IoTSan: Fortifying the Safety of IoT Systems}.
+\newblock {\em ArXiv e-prints}, October 2018.
+
+\bibitem{5476636}
+N.~D. Nguyen, D.~T. Nguyen, M.~L. Gall, N.~Saxena, and H.~Choo.
+\newblock Greedy forwarding with virtual destination strategy for geographic
+  routing in wireless sensor networks.
+\newblock In {\em 2010 International Conference on Computational Science and
+  Its Applications}, pages 217--221, March 2010.
+
+\bibitem{Ouchani2013:securityrisk}
+S.~Ouchani, O.~A. Mohamed, and M.~Debbabi.
+\newblock A security risk assessment framework for sysml activity diagrams.
+\newblock In {\em Proc. {IEEE} Conference on Software Security and Reliability
+  (SERE)}, pages 227--236, Gaithersburg, MD, USA, June 2013.
+
+\bibitem{5473884}
+K.~Pelechrinis, M.~Iliofotou, and S.~V. Krishnamurthy.
+\newblock Denial of service attacks in wireless networks: The case of jammers.
+\newblock {\em IEEE Communications Surveys Tutorials}, 13(2):245--257, Second
+  2011.
+
+\bibitem{Peled1996}
+Doron Peled.
+\newblock {\em Partial order reduction: Model-checking using representatives},
+  pages 93--112.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1996.
+
+\bibitem{John2014}
+John Pescatore and Gal Shpantzer.
+\newblock {\em Securing the Internet of Things Survey}.
+\newblock SANS Institute InfoSec Reading Room, 2014.
+
+\bibitem{Philips:hue}
+Philips.
+\newblock Philips hue.
+\newblock \url{https://www2.meethue.com/en-us}, June 2018.
+
+\bibitem{8031622}
+H.~C. Pohls and B.~Petschkuhn.
+\newblock Towards compactly encoded signed {IoT} messages.
+\newblock In {\em 2017 IEEE 22nd International Workshop on Computer Aided
+  Modeling and Design of Communication Links and Networks (CAMAD)}, pages 1--6,
+  June 2017.
+
+\bibitem{Ronen2016:extended}
+E.~Ronen and A.~Shamir.
+\newblock Extended functionality attacks on {IoT} devices: The case of smart
+  lights.
+\newblock In {\em Proc. 2016 {IEEE} European Symposium on Security and
+  Privacy}, pages 3--12, Germany, 2016.
+
+\bibitem{Eyal:iotworm}
+Eyal Ronen, Colin O'Flynny, Adi Shamir, and Achi-Or Weingarten.
+\newblock {IoT} goes nuclear: Creating a zigbee chain reaction.
+\newblock In {\em Proc. {IEEE} Symposium on Security and Privacy}, pages
+  195--212, San Jose, CA, USA, May 2017.
+
+\bibitem{Rudell2003}
+R.~Rudell.
+\newblock {\em Dynamic Variable Ordering for Ordered Binary Decision Diagrams},
+  pages 51--63.
+\newblock Springer US, Boston, MA, 2003.
+
+\bibitem{7483485}
+J.~E.~Giral Sala, R.~Morales Caporal, E.~Bonilla Huerta, J.~J.~Rodriguez Rivas,
+  and J.~d.~J.~Rangel~Magdaleno.
+\newblock A smart switch to connect and disconnect electrical devices at home
+  by using internet.
+\newblock {\em IEEE Latin America Transactions}, 14(4):1575--1581, April 2016.
+
+\bibitem{Samsung:smartthings}
+Samsung.
+\newblock Smartthings.
+\newblock \url{https://www.smartthings.com/}, June 2018.
+
+\bibitem{Samsung:smartthingsapi}
+Samsung.
+\newblock Smartthings' api documentation.
+\newblock \url{https://docs.smartthings.com/}, June 2018.
+
+\bibitem{Sardar2016}
+Muhammad~Usama Sardar, Nida Afaq, Khaza~Anuarul Hoque, Taylor~T. Johnson, and
+  Osman Hasan.
+\newblock {\em Probabilistic Formal Verification of the SATS Concept of
+  Operation}, pages 191--205.
+\newblock Springer International Publishing, 2016.
+
+\bibitem{7934571}
+M.~Schwarz, C.~Villarraga, D.~Stoffel, and W.~Kunz.
+\newblock Cycle-accurate software modeling for rtl verification of embedded
+  systems.
+\newblock In {\em 2017 IEEE 20th International Symposium on Design and
+  Diagnostics of misc Circuits Systems (DDECS)}, pages 103--108, April 2017.
+
+\bibitem{Sha2017}
+Letian Sha, Fu~Xiao, Wei Chen, and Jing Sun.
+\newblock {IIoT-SIDefender}: Detecting and defense against the sensitive
+  information leakage in industry {IoT}.
+\newblock {\em World Wide Web}, pages 1--30, Apr 2017.
+
+\bibitem{doi:10.1177/1550147718767605}
+Muhammad~K Shahzad, Dang~Tu Nguyen, Vyacheslav Zalyubovskiy, and Hyunseung
+  Choo.
+\newblock Lndir: A lightweight non-increasing delivery-latency interval-based
+  routing for duty-cycled sensor networks.
+\newblock {\em International Journal of Distributed Sensor Networks},
+  14(4):1550147718767605, 2018.
+
+\bibitem{Shankar2018}
+Natarajan Shankar.
+\newblock {\em Combining Model Checking and Deduction}, pages 651--684.
+\newblock Springer International Publishing, 2018.
+
+\bibitem{shin2016sampling}
+Hocheol Shin, Yunmok Son, Young-Seok Park, Yujin Kwon, and Yongdae Kim.
+\newblock Sampling race: Bypassing timing-based analog active sensor spoofing
+  detection on analog-digital systems.
+\newblock In {\em USENIX Workshop on Offensive Technologies}, 2016.
+
+\bibitem{SmartThingsGitHub}
+SmartThings.
+\newblock Smartthings community on github.
+\newblock
+  \url{https://github.com/SmartThingsCommunity/SmartThingsPublic/tree/master/smartapps},
+  September 2018.
+
+\bibitem{Samsung:smartthingsmanage}
+SmartThings.
+\newblock Smartthings management page.
+\newblock \url{https://graph-na02-useast1.api.smartthings.com/}, June 2018.
+
+\bibitem{Samsung:smartthingsproduct}
+SmartThings.
+\newblock Works with smartthings.
+\newblock \url{https://www.smartthings.com/products}, June 2018.
+
+\bibitem{son2015rocking}
+Yunmok Son, Hocheol Shin, Dongkwan Kim, Young-Seok Park, Juhwan Noh, Kibum
+  Choi, Jungwoo Choi, Yongdae Kim, et~al.
+\newblock Rocking drones with intentional sound noise on gyroscopic sensors.
+\newblock In {\em USENIX Security 15}, pages 881--896, 2015.
+
+\bibitem{Spin:intro}
+Spin.
+\newblock What is spin?
+\newblock \url{http://spinroot.com/spin/whatispin.html}, June 2018.
+
+\bibitem{7815045}
+A.~Tekeoglu and A.~S. Tosun.
+\newblock A testbed for security and privacy analysis of {IoT} devices.
+\newblock In {\em IEEE MASS 16}, pages 343--348, Oct 2016.
+
+\bibitem{Thomsen2015}
+Bent Thomsen, Kasper~S{\o}e Luckow, Lone Leth, and Thomas B{\o}gholm.
+\newblock {\em From Safety Critical Java Programs to Timed Process Models},
+  pages 319--338.
+\newblock Springer International Publishing, 2015.
+
+\bibitem{203866}
+Yuan Tian, Nan Zhang, Yueh-Hsun Lin, XiaoFeng Wang, Blase Ur, Xianzheng Guo,
+  and Patrick Tague.
+\newblock Smartauth: User-centered authorization for the internet of things.
+\newblock In {\em {USENIX} Security 17}, pages 361--378, Vancouver, BC, 2017.
+
+\bibitem{Ur2013:accesscontrol}
+B.~Ur, J.~Jung, and S.~Schechter.
+\newblock The current state of access control for smart devices in homes.
+\newblock In {\em Workshop on Home Usable Privacy and Security ({HUPS})},
+  Newcastle, UK, 2013.
+
+\bibitem{Ur:2016:TPW:2858036.2858556}
+Blase Ur, Melwyn Pak Yong~Ho, Stephen Brawner, Jiyun Lee, Sarah Mennicken, Noah
+  Picard, Diane Schulze, and Michael~L. Littman.
+\newblock Trigger-action programming in the wild: An analysis of 200,000 ifttt
+  recipes.
+\newblock In {\em ACM CHI Conference on Human Factors in Computing Systems},
+  pages 3227--3231, USA, 2016.
+
+\bibitem{Vallee-Rai98jimple:simplifying}
+Raja Vallee-Rai and Laurie~J. Hendren.
+\newblock Jimple: Simplifying java bytecode for analyses and transformations,
+  1998.
+
+\bibitem{Vera:homecontroller}
+Vera.
+\newblock Smart home controller.
+\newblock \url{http://getvera.com/controllers/vera3/}, June 2018.
+
+\bibitem{Samsung:smartthingscom3}
+Amauri Viguera.
+\newblock More unavailable devices.
+\newblock
+  \url{https://community.smartthings.com/t/more-unavailable-devices/98584},
+  June 2018.
+
+\bibitem{Wang:ProvThings}
+Qi~Wang, Wajih~Ul Hassan, Adam Bates, and Carl Gunter.
+\newblock Fear and logging in the internet of things.
+\newblock In {\em {NDSS}'18}, USA, February 2018.
+
+\bibitem{Samsung:smartthingscom2}
+Evan Wilkins.
+\newblock Devices showing up as `this device is unavailable at the moment'.
+\newblock
+  \url{https://community.smartthings.com/t/devices-showing-up-as-this-device-is-unavailable-at-the-moment/94724},
+  June 2018.
+
+\bibitem{Judson2017:rar}
+Judson Wilson, Dan Boneh, Riad~S. Wahby, Philip Levis, Henry Corrigan-Gibbs,
+  and Keith Winstein.
+\newblock Trust but verify: Auditing the secure internet of things.
+\newblock In {\em ACM {MobiSys} '17}, pages 464--474, USA, 2017.
+
+\bibitem{8047972}
+F.~Xiao, L.~T. Sha, Z.~P. Yuan, and R.~C. Wang.
+\newblock Vulhunter: A discovery for unknown bugs based on analysis for known
+  patches in industry internet of things.
+\newblock {\em IEEE Transactions on Emerging Topics in Computing}, PP(99):1--1,
+  2017.
+
+\bibitem{Yale:assurelock}
+Yale.
+\newblock Yale assure lock.
+\newblock
+  \url{https://www.yalehome.com/en/yale/yalehome/residential/yale-real-living/assure-lock/yrl-assurelock-bluetooth/},
+  June 2018.
+
+\bibitem{Yuchen2017}
+Yuchen Yang, Longfei Wu, Guisheng Yin, Lijie Li, and Hongbin Zhao.
+\newblock A survey on security and privacy issues in internet-of-things.
+\newblock {\em IEEE Internet of Things Journal}, PP:1--10, April 2017.
+
+\bibitem{7745306}
+M.~B. Yassein, W.~Mardini, and A.~Khalil.
+\newblock Smart homes automation using z-wave protocol.
+\newblock In {\em 2016 International Conference on Engineering MIS (ICEMIS)},
+  pages 1--6, Sept 2016.
+
+\end{thebibliography}

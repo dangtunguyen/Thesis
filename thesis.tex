@@ -1,0 +1,200 @@
+%% uctest.tex 11/3/94
+%% Copyright (C) 1988-2004 Daniel Gildea, BBF, Ethan Munson.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2003/12/01 or later.
+%
+% This work has the LPPL maintenance status "maintained".
+% 
+% The Current Maintainer of this work is Daniel Gildea.
+%
+% 2007/08/01
+% LaTeX Package "ucr" is modified from LaTeX package "ucthesis."
+% This modification is therefore under to the conditions of 
+% the LaTeX Project Public License.
+% Its formality is suitable for the dissertation of Universty of
+% California, Riverside.
+% This test document is for the convenience of all students of
+% Universty of California, Riverside.
+% Contact Charles Yang at chcyang@yahoo.com if you like.
+% Charles Yang has nothing to do with the original author's sarcasm.
+%
+% \documentclass[11pt]{ucthesis}
+% \documentclass[11pt]{ucr}
+\documentclass[oneside,final, letterpaper]{ucr}
+
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{algorithm, algorithmic}
+%\usepackage{algorithmic}
+\usepackage{subcaption,xcolor}
+\usepackage{comment}
+%\usepackage{gensymb}
+%\usepackage[hyphens]{url}
+%\usepackage{breakurl}
+%\def\UrlBreaks{\do\/\do-}
+\usepackage[breaklinks]{hyperref}
+\usepackage{bbding}
+%\usepackage{times}
+%\usepackage[colorlinks]{hyperref}
+%\hypersetup{citecolor=black,linkcolor=black}
+%\usepackage{longtable}
+
+\usepackage{pgffor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstset
+{ %Formatting for code in appendix
+    %language=Matlab,
+    %basicstyle=\scriptsize,
+    basicstyle=\scriptsize,
+    backgroundcolor=\color{backcolour},
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=1,
+    breaklines=true,
+    breakatwhitespace=false,
+    numbersep=2pt,
+    keepspaces=true,
+    xleftmargin=1.3em,
+    %frame=single,
+    framexleftmargin=1.3em
+}
+
+\definecolor{groovyblue}{HTML}{0000A0}
+\definecolor{groovygreen}{HTML}{008000}
+\definecolor{darkgray}{rgb}{0,0,0}
+ 
+\lstdefinelanguage{Groovy}[]{Java}{
+  keywordstyle=\color{groovyblue}\bfseries,
+  stringstyle=\color{black}\ttfamily,
+  keywords=[3]{each, findAll, groupBy, collect, inject, eachWithIndex, input, section, preferences, title, required, multiple, options},
+  morekeywords={def, as, in, use},
+  moredelim=[is][\textcolor{darkgray}]{\%\%}{\%\%},
+  moredelim=[il][\textcolor{darkgray}]{§§}
+}
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\usepackage{xspace}
+\newcommand{\sys}{\mbox{\textsc{IotSan}}\xspace}
+\newcommand{\spin}{\mbox{\textsc{Spin}}\xspace}
+
+\newcommand{\PP}[1]{
+\vspace{2px}
+\noindent{\bf {#1}}
+}
+
+\newcommand{\etal}{\textit{et al}.\xspace}
+\newcommand{\ie}{\textit{i}.\textit{e}.}
+\newcommand{\eg}{\textit{e}.\textit{g}.}
+
+\newcommand{\zhiyun}[1]{\textcolor{red}{[Zhiyun: #1]}}
+\newcommand{\krish}[1]{\textcolor{blue}{[Srikanth: #1]}}
+\newcommand{\chengyu}[1]{\textcolor{red}{[Chengyu: #1]}}
+\newcommand{\thomas}[1]{\textcolor{violet}{[Thomas: #1]}}
+
+\newcommand{\squishlist}{
+   \begin{list}{$\bullet$}
+    { \setlength{\itemsep}{0pt}      \setlength{\parsep}{3pt}
+      \setlength{\topsep}{3pt}       \setlength{\partopsep}{0pt}
+      \setlength{\leftmargin}{1.0em} \setlength{\labelwidth}{1em}
+      \setlength{\labelsep}{0.5em} } }
+\newcommand{\squishend}{
+    \end{list}  }
+   
+\newcommand{\squisholist}{
+        \begin{enumerate}
+                { \setlength{\itemsep}{0pt}      \setlength{\parsep}{0pt}
+                        \setlength{\topsep}{0pt}       \setlength{\partopsep}{0pt}
+                        \setlength{\leftmargin}{0em} \setlength{\labelwidth}{0em}
+                        \setlength{\labelsep}{0em} } }
+        \newcommand{\squishendo}{
+        \end{enumerate}  }
+
+\begin{document}
+
+
+% Declarations for Front Matter
+
+\title{Towards Fortifying the Safety and Security of IoT Systems}
+\author{Dang Tu Nguyen}
+\degreemonth{December}
+\degreeyear{2018}
+\degree{Master of Science}
+\chair{Dr. Srikanth V. Krishnamurthy}
+\othermembers{Dr. Chengyu Song\\
+Dr. Zhiyun Qian}
+\numberofmembers{3}
+\field{Computer Science}
+\campus{Riverside}
+
+\maketitle
+\copyrightpage{}
+\approvalpage{}
+
+\degreesemester{Fall}
+
+\begin{frontmatter}
+
+\begin{acknowledgements}
+I am grateful to my advisor, without whose help, I would not have been here.
+\end{acknowledgements}
+
+\begin{dedication}
+\null\vfil
+{\large
+\begin{center}
+To my parents for all the support.
+\end{center}}
+\vfil\null
+\end{dedication}
+
+\input{absm}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\end{frontmatter}
+
+% \part{First Part}
+
+
+\input{introm}
+\input{backm}
+\input{scopem}
+\input{overviewm}
+\input{depm}
+\input{transm}
+\input{setm}
+\input{modelm}
+\input{outputm}
+\input{evalm}
+\input{discm}
+\input{relatedm}
+\input{concm}
+
+
+
+\nocite{*}
+% \singlespacing
+% \bibliographystyle{alpha}
+\bibliographystyle{plain}
+%\bibliographystyle{./bibtex/ACM-Reference-Format}
+\bibliography{./bibtex/mybibfile}
+
+\input{appendix}
+
+
+\end{document}

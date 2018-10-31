@@ -1,0 +1,167 @@
+\chapter{Introduction}
+A variety of IoT (Internet-of-Things)
+systems
+are already widely available on the market.
+These systems are typically controlled by \textit{event-driven} smart apps
+that take as input either sensed data, user inputs, or other external triggers (from the Internet)
+and command one or more actuators towards providing different forms of automation.
+Examples of sensors include smoke detectors, motion sensors, and contact sensors.
+Examples of actuators include smart locks, smart power {\color{black}outlets}, and door controls.
+Popular control platforms on which third-party developers can build smart apps
+that interact wirelessly with these sensors and actuators include
+Samsung's SmartThings~\cite{Samsung:smartthings}, Apple's HomeKit~\cite{Apple:homekit},
+and
+%Google's Weave/Brillo~\cite{Google:weave}, among others.
+Amazon's Alexa~\cite{Amazon:alexa}, among others.
+%Vera's Smart Home Controller~\cite{Vera:homecontroller},
+%Intel's Smart Buildings~\cite{Intel:smartbuildings}, {\color{violet}Logitech Harmony~\cite{Logitech:harmony}, and Microsoft Azure IoT~\cite{Microsoft:iot}.}
+
+While conceivably, IoT is here to stay,
+current research studies on security/safety of IoT systems are limited in two fronts \cite{2018arXiv181009551N}.
+First, they focus on \emph{individual components} of IoT systems:
+there are papers on the security of communication protocols
+\cite{Dolly2016,Fouladi2013,Ho2016:smartlock,Lomas:zigbeeflaw,Eyal:iotworm,doi:10.1177/1550147718767605,5476636,5506358},
+firmware of devices
+\cite{7815045,6983801,8047972,7483485,7581459,Costin:analysis},
+{\color{black}platforms}
+\cite{Earlence:flowfence,Jia:contexiot},
+and smart apps
+\cite{Earlence:smarthomesecurityanalysis,Earlence:flowfence,Jia:contexiot,203866}.
+%Only
+{\color{black}Very few efforts have} %\zhiyun{in abstract we say no work??} 
+taken a holistic perspective of \emph{an IoT system}.
+Second, most current research efforts only focus on securing the cyberspace,
+and do not address the safety and security of the physical space,
+which is one of the key obstacles for real-world IoT deployment~\cite{iot_security_news,2018arXiv180906962B}.
+%Third, they do not consider device failure \cite{Samsung:smartthingscom1,Samsung:smartthingscom2, Samsung:smartthingscom3, Samsung:smartthingscom4}, which may cause an IoT system into bad states.}
+
+Our thesis is that a holistic view of an IoT system is important \ie,
+the distributed sensors and actuators, and the apps
+that interact with them need to be considered jointly.
+While the compromise of an individual component may lead to
+the compromise of the whole system,
+certain complex security and safety issues are only revealed when the interactions
+between components (\eg, a plurality of poorly designed apps) and/or possible {\color{black}device/communication failures}
+are considered.
+%For example, badly designed apps (not necessarily malicious),
+%or undesirable (and in many cases unforeseen) interactions between apps installed by
+%a user can drive the IoT system into dangerous states.
+These latent problems are very real since apps are often developed by
+third-party vendors without coordination,
+and are likely to be installed by one or more users (\eg, family members) at different times.
+%(or by multiple users such as members of a family);
+%while users are unlikely to realize that apps may interact in bad ways.
+{\color{black}
+Moreover, both legitimate device failures~\cite{Samsung:smartthingscom1,Samsung:smartthingscom2, Samsung:smartthingscom3, Samsung:smartthingscom4} (\eg, from battery depletion) and induced
+communication failures
+(\eg, via jamming~\cite{5473884})
+%failures %or
+%communication failures (\eg, jammed by attackers) 
+can lead to missed interactions between autonomous components, which in turn can
+cause
+the entire system to transition into a bad state. 
+}
+%due to loss in interactions between
+%autonomous components.
+These issues are especially dangerous,
+because bad or missed interactions can be deliberately induced by attackers
+via {\color{black} spoofing sensors  
+\cite{son2015rocking,shin2016sampling},
+luring users to install malicious apps~\cite{Jia:contexiot},
+or jamming sensor reports}.
+%The above issues are especially dangerous because
+%adversaries can potentially exploit
+%inherent logical flaws arising due to these interactions,
+%to cause and perhaps exploit unsafe physical states.
+
+\section{Goals}
+%\textbf{Goals}:
+In this paper, our goal is to build a holistic \textcolor{black}{system}
+%\thomas{Ed's comment: method?}
+which,
+given an IoT system and
+a set of default plus user-defined safety properties with regards to
+both the cyber and physical {\color{black}spaces},
+(a) finds if components of an IoT system
+or interactions between components can lead to bad states that violate these properties;
+and, (b) attributes the detected violations to either benign misconfigurations
+or potential malicious apps.
+With regards to (a) we account for cases wherein
+app interactions or 
+{\color{black}failed device(s)/communications} can cause a bad state.
+With regards to (b) we look for repeated instantiations of unsafe states
+since malicious apps are likely to
+consistently try to coerce the IoT system into exploitable bad states
+(\eg, those described in~\cite{Jia:contexiot}).
+
+To achieve our goal, we need to solve a set of technical challenges.
+Among these, the key challenge lies in the scope of the analysis:
+as the number of IoT devices and apps is already
+large and is only likely to grow in the future~\cite{alpha,iotexp},
+{\color{black} physical replication and testing of IoT systems is hard (due
+to scale).} 
+%and 
+%does not scale.}
+%it is unscalable to physically replicate a given IoT system
+%and test it}.
+Thus, it is desirable to build a realistic model of the system,
+which captures the interactions between sensors, apps, and actuators.
+
+\section{Our Solution}
+%\textbf{Our solution}:
+We achieve our goal by addressing the above and 
+other practical challenges, in a novel framework \sys
+(for IoT Sanitizer).
+In brief, \sys uses model checking as a basic building block.
+Towards alleviating the state space explosion problem associated with
+model checking~\cite{Clarke2012},
+we design two optimizations within \sys to
+(i) only consider apps that interact with each other,
+{\color{black}and (ii) eliminate unnecessary interleaving that is unlikely to yield useful assessment of unsafe behaviors.}
+We also design an attribution module which flags potentially malicious apps,
+and attributes other unsafe states to bad design or misconfiguration.
+
+%To assess the feasibility and effectiveness of our solution,
+We develop a prototype of \sys based on the \spin model checker~\cite{Holzmann:spin}
+and apply it to the Samsung SmartThings platform.
+As one contribution, we design an automated model generator
+that translates apps written in Groovy (the programming language of SmartThings apps)
+into Promela, the modeling language of \spin.
+{\color{black}To evaluate \sys,
+we postulate 45 common sense safety properties} and consider 150 smart apps
+with 76 configurations. With this setup,
+\sys discovered 147 violations of 20 safety properties
+due to app interactions (135 violations) and {\color{black}device/communication failures} (12 violations).
+In an extreme case, 4 smart apps needed to interact to cause a violation,
+which is extremely difficult to spot manually.
+%{\color{black}11 violations were found in configurations of 1 app,
+%19 in configurations of 2 apps, 8 in configurations of 3 apps,
+%10 in configurations of 4 apps, 2 in configurations of 5 apps,
+%and 1 in a configuration of 6 apps.}
+%a group of 1, 2, 3, 4, 5, and 6 app; and the corresponding violations were 11, 19, 8, 10, 2, and 1, respectively.
+We evaluate our attribution module with 9 malicious apps
+from~\cite{Jia:contexiot} that are relevant to our problem scope
+(\eg, causing bad physical states).
+\sys attributes all 9 apps to be potentially malicious.
+
+\section{Contributions}
+%\textbf{Contributions}:
+A summary of our contributions is as follows:
+\begin{itemize}
+%\item To the best of our knowledge, we are the first work using model checking to identify app-level threats of IoT systems.
+\item We map the problem of {\color{black} detecting potential safety issues of 
+an IoT system} into a model checking problem.
+  We develop novel pre-processing methods to alleviate the state explosion problem in model checking.
+  %We model IoT systems including different types of devices (sensors and actuators), apps and their interactions, as well as configurations.
+
+\item We design
+  \sys to detect safety violations in IoT systems and
+  develop a prototype that applies to the Samsung SmartThings platform. {\color{black} We provide the source code of \sys for download at https://github.com/dangtunguyen/IoTSan}.
+  We develop tools to automatically translate the app source code into Promela.
+  We evaluate \sys with 150 smart apps from the SmartThings' market place
+  and discover 147 possible safety violations.
+
+\item We propose a method to attribute safety violations to either bad apps or misconfigurations.
+  The method attributes 9 known malicious apps with 100\% accuracy.
+\end{itemize}
+

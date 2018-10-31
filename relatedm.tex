@@ -1,0 +1,33 @@
+%\vspace{-0.12in}
+\chapter{Related Work}
+\label{sec:related}
+%IoT systems have grown in popularity and have already hit the markets. Samsung's SmartThings \cite{Samsung:smartthings}, Apple's HomeKit \cite{Apple:homekit}, Google's Weave/Brillo \cite{Google:weave}, Vera's Smart Home Controller \cite{Vera:homecontroller}, and Intel's Smart Buildings \cite{Intel:smartbuildings} are among the most popular platforms. Third party apps to drive these systems are also proliferating and can enable diversity in usage and new features as they evolve. However, the safety of using such applications will have to be ensured to protect users. \sys addresses this issue.
+
+%\noindent
+\section{IoT Security} Current research on IoT security can be roughly divided into three categories that focus on devices \cite{Ronen2016:extended,Fisher:honeywellbug,Hesseldahl:hackereye}, protocols \cite{Fouladi2013,Ho2016:smartlock, Lomas:zigbeeflaw,Eyal:iotworm}, and platforms. There have been efforts addressing information leakage and privacy~\cite{Christoph2015,Judson2017:rar,Sha2017,Bertino:2016:ITS:3023158.3013520,Yuchen2017,217632}, and vulnerabilities of firmware images \cite{Costin:analysis}.
+Fernandes \textit{et al.}, have recently reported security-critical design flaws in the IoT permission model that could expose smart home users to significant harm such as break-ins~\cite{Earlence:smarthomesecurityanalysis}. 
+%To address these,  they propose FlowFence \cite{Earlence:flowfence}, a system that requires smart apps  to declare their intended data flow patterns. It then explicitly embeds some extra code into the smart app's structure to block undeclared flows. ContexIoT \cite{Jia:contexiot}, provides contextual integrity by supporting fine-grained context identification for sensitive actions, to help users perform effective access control. {\color{black}ProvThings~\cite{Wang:ProvThings} performs code instrumentation of apps and device handlers and audit system activities at run time.}
+%SmartAuth~\cite{203866} generates a user interface \textcolor{black}{that facilitates educated authorizations based on the app's functions and operations.}
+{\color{black}To address these, several efforts~\cite{Earlence:flowfence,Jia:contexiot,203866,Wang:ProvThings} have proposed modifications} to a smart app's source code and the platform, 
+to enforce good behaviors of smart apps at run time. In contrast, our work statically identifies
+possible violations of given 
+physical/cyber safety properties of IoT systems without requiring any app modifications. 
+%Specifically we seek to identify interactions among installed smart apps, behaviors of
+%malicious apps, and device failure triggers, that cause bad physical states . 
+
+%\noindent
+\section{Model Checking}
+%Model checking, a formal verification technique for assessing functional properties of information and communication systems, has been widely used by researchers across many areas \cite{Seth2016:smartgrid,Chen2013:contextual,Roya:networkprotocol,Sardar2016, Ali2013:ami, Ouchani2013:securityrisk}. This technique has also 
+{\color{black}Model checking has
+been used to verify system-level threats ~\cite{Mohsin2017:IoTChecker,Mohsin2017:IoTRiskAnalyzer,Mohsin2016:IoTSAT} and {\color{black}basic correctness properties~\cite{Liang:2015:SBI:2737095.2737115,190480,215955,Newcomb:2017:ICI:3133850.3133860}} of IoT systems.}
+%IoTRiskAnalyzer \cite{Mohsin2017:IoTRiskAnalyzer} is a probabilistic model checking system 
+%that takes a set of deployment configurations (\textit{e.g.}, IoT devices and their network), operational policies (\textit{i.e.}, the rules based on which the sensing data is processed and actuation commands are triggered), vulnerability exploitation scores of individual IoT components, and attacker capabilities as inputs. It then 
+%that generates system and threat models to capture the risk exposure of each input configuration. 
+%IoTSAT \cite{Mohsin2016:IoTSAT} utilizes Satisfiability Modulo Theories (SMT) \cite{deMoura:SMT} to formally model the generic behavior of IoT systems. 
+%based on device configurations, network topologies, user policies and IoT-specific attack surface. The model is then used to measure system's resilience against potential attacks and identify threat vectors and specific attack techniques. 
+%SIFT \cite{Liang:2015:SBI:2737095.2737115} takes app's rules as inputs and uses a synthesis engine to generate code that is specific to the deployment environment. SIFT then uses white-box model checking to verify that synthesized IoT apps do not violate safety policies. {\color{black}Soteria~\cite{215955} and DeLorean~\cite{Delorean} use model checking to verify basic correctness properties of IoT systems.}
+In contrast with these efforts, \sys targets developing a practical platform for ensuring
+the physical safety of today's IoT systems. It not only addresses
+the practical challenges (\eg, scale issues and making Groovy amenable to model checking) 
+in identifying configurations that violate user properties relating to
+the physical state, but also addresses robustness (failures) and security issues (malicious app attribution). {\color{black}Table \ref{table:comparison} shows what \sys offers compared to the most related recent systems.}

@@ -1,0 +1,73 @@
+%\vspace{-0.13in}
+\chapter{Discussion}
+{\color{black}
+\section{Application to other IoT Platforms}
+For ease of exposition, our narrative integrated some aspects of
+implementation specific to SmartThings, when describing the design of \sys. Conceptually,
+the design of \sys applies to other IoT platforms. To illustrate, given its recent popularity we choose IFTTT (IF This Then That~\cite{iftttpage})~\cite{Liang:2015:SBI:2737095.2737115,Ur:2016:TPW:2858036.2858556,Mi:2017:ECI:3131365.3131369} to show that this is the case. IFTTT is a task automation platform for IoT deployments. An IFTTT rule (also called applet) comprises of two main parts: ``Trigger Service'' (This) and ``Action Service'' (That). To apply \sys to IFTTT, most of the modules (\ie, \textit{App Dependency Analyzer}, \textit{Model Generator}, and \textit{Output Analyzer}) can be reused almost as is; the relatively big change will be in the \textit{Translator}.
+
+%Top IoT-related trigger services include Amazon Alexa~\cite{Amazon:alexa}, \href{https://nest.com/}{Nest Thermostat}, and \href{https://assistant.google.com/}{Google Assistant}; \href{http://www2.meethue.com}{Philips Hue}, Samsung SmartThings~\cite{Samsung:smartthings}, and \href{http://www.belkin.com/us/F7C030/p/P-F7C030/}{WeMo Smart Plug} are among popular IoT-related action services ~\cite{Mi:2017:ECI:3131365.3131369}. Xianghang Mi \etal ~\cite{Mi:2017:ECI:3131365.3131369} develop a crawler to fetch a large number of published applets from IFTTT website and save them to a \textit{recipes.json} file.
+
+\textbf{\em IFTTT to Java Translator}: We use the crawler of \cite{Mi:2017:ECI:3131365.3131369} to fetch the published applets from IFTTT website into a \textit{json} file. We then developed an \textit{IFTTT Handler} in Java based on the \textit{org.json.simple} package to extract the subscribed device and event from the trigger service, and the controlled device and expected command from the action service of each IFTTT rule. {\color{black} The translation is relatively simple.} Each rule is considered as an app, which has only a single event handler, in \sys and is translated into a Java class. Each event handler (\ie, a Java method) has only a single instruction (\ie, the expected command); the subscribed device and controlled device become class fields. Even though the technical details of \textit{IFTTT Handler} are somewhat different from \textit{SmartThings Handler}, the translation procedures are very similar (\eg, all Java objects and grammars are exactly the same).
+
+\textbf{\em Minor changes in Model Generator}: Each service is map-ped onto (modeled as) a sensor device(s) or an actuator device(s). We have modeled 8 popular IoT-related services based on the events/actions they provides on the IFTTT website. For example, Amazon Alexa~\cite{Amazon:alexa} and \href{https://assistant.google.com/}{Google Assistant} are modeled as sensor devices; \href{https://nest.com/}{Nest Thermostat} is modeled as an actuator device. {\color{black} The difference is that Samsung SmartThings 
+inherently provides handlers for several kinds of devices (\eg, outlet, lock, motion sensor, and contact sensor)}. The change needed is to add more device types to the collection of modeled devices.
+
+We have validated our basic IFTTT prototype implementation with 10 IoT rules/applets (from \cite{iftttpage}) assuming that all of these rules are installed in a smart home. We perform limited experiments and as shown in Table~\ref{iftttresults} (hyperlinks to a rule --e.g., rule \#1 -- can be seen by clicking on the rule), we find 7 violations of 4 unsafe physical states.
+\begin{table}[tb]
+\scriptsize
+\caption{Verification results with IFTTT rules.}
+%\vspace{-0.12in}
+\label{iftttresults}
+\centering
+{\begin{tabular}{| p{10cm} | p{4cm} |}
+\hline
+{\bf Violated properties} & {\bf Related rules}\\
+\hline
+Siren/strobe is not activated when intruder (\ie, motion) is detected & (\href{https://ifttt.com/applets/156916p-strobe-my-smartthings-siren-if-category-1-hurricane-winds-are-nearby}{rule \#1}, \href{https://ifttt.com/applets/342118p-alexa-tells-smarthings-to-turn-off-siren}{rule \#4}), (\href{https://ifttt.com/applets/260978p-motion-siren-on}{rule \#3}, \href{https://ifttt.com/applets/342118p-alexa-tells-smarthings-to-turn-off-siren}{rule \#4})\\
+\hline
+Siren/strobe is activated when no intruder is detected & (\href{https://ifttt.com/applets/342120p-alexa-tells-smarthings-to-turn-on-siren}{rule \#2})\\
+\hline
+The main/front door is unlocked when no one is at home & (\href{https://ifttt.com/applets/115638p-let-me-in-checkin-with-a-hashtag-to-unlock-your-door}{rule \#5}), (\href{https://ifttt.com/applets/348905p-alexa-unlock-the-frond-door}{rule \#6})\\
+\hline
+A phone call is not triggered when intruder is detected & (\href{https://ifttt.com/applets/419985p-disarm-your-arlo-camera-network-with-alexa}{rule \#7}, \href{https://ifttt.com/applets/413211p-if-arlo-detects-motion-call-my-phone}{rule \#10}), (\href{https://ifttt.com/applets/raiAMZLh-tell-google-assistant-to-disarm-your-arlo}{rule \#8}, \href{https://ifttt.com/applets/413211p-if-arlo-detects-motion-call-my-phone}{rule \#10})\\
+\hline
+\end{tabular}}
+%\vspace{-0.27in}
+\end{table}
+}
+
+\section{Limitations}
+While our prototype of \sys has been shown to be very effective in
+identifying bad apps and unsafe configurations, it has the following limitations.
+%
+{\em First,} the \spin model checker has a predefined threshold for the size of Promela code
+(and cannot handle a file size greater than this).
+Depending on apps' source code sizes and dependencies among the apps, \sys can handle a system with about 30 apps.
+We assume that users are unlikely to have many more than this today and will investigate further scalability in the future.
+%{\em Second},  Groovy has many built-in utilities and SmartThings has a lot of APIs and supports a wide range of device types. However, we have just incorporated the most common features of SmartThings and Groovy (\textit{e.g.}, \texttt{find}, \texttt{findAll}, \texttt{each}, \texttt{collect}, \texttt{first}, $+$ on list types, and \texttt{map}), which are widely used by most smart apps. One can handle the remaining features but this will incur more engineering effort which we leave for future work.
+%{\color{violet}{\em Second}, one can apply \sys to other hub-based IoT platforms ~\cite{Vera:homecontroller,Intel:smartbuildings, Logitech:harmony,Microsoft:iot} but this will incur more engineering effort to replace the \textit{Translator} module with a new one, which translates from a language other than Groovy into Java; we leave this effort for future work.}
+%
+{\em Second}, we require smart apps to explicitly subscribe to specific devices they want to control
+and cannot handle smart apps that dynamically discover devices and interact with them.
+Such apps are very dangerous since they can control any device without permissions from users.
+Identifying such apps and ensuring that they do not compromise the physical state is beyond the scope of this effort.
+%
+{\em Third}, in Algorithm \ref{alg:smarthingprocess}, we let the model checker enumerate all possible permutations of the event types;
+thus, it may consider scenarios that are unlikely to happen in the real world
+(\eg, the temperature is set to a minimum value in the first iteration and set to a maximum value in the second one).
+However, we include these scenarios to catch bad or malicious apps.
+If such scenarios can be eliminated, the state explosion issue can be further mitigated.
+%
+{\em Fourth}, we do not explicitly model the behavior of the physical environment after an actuator executes a command
+(\eg, the system temperature should increase after a heater is turned on).
+However, such physical changes are implicitly covered by the way the model checker \textcolor{black}{exhaustively} verifies a system.
+%{\em Sixth}, one may claim that legitimate apps can use the SmartThings APIs (\textit{e.g., httpPost}) to send some crash info back to the server. However, users may have their own reasons to disallow such operations to prevent private information leakage. We let the user decide which properties their IoT system should satisfy. 
+%{\em Finally}, to mitigate the impact of device failures on the system, after sending a command to an actuator, a smart app needs to check if the actuator is in the expected state. If not, the smart app should notify users of this incident via SMS/Push message.}
+%To illustrate, let us consider a system that consists of five devices and each device has two types of events. For the sake of simplicity, we ignore the two event types $sunriseTime$ and $sunsetTime$. At each iteration in the Algorithm \ref{alg:smarthingprocess}, there are 10 options to select an event type that is to be generated. If we generate $10$ events, there will be $10^{10}$ permutations of the events, \textit{i.e.}, there will be $10^{10}$ ways to generate 10 events. In verification mode, a model checker will enumerate all of the permutations to exhaustively verify the system. Therefore, the event sequent ``a heater is turned on" and then ``the system temperature is increased" is just one of the permutations.
+%\krish{I do not get the example -- do we really need it?  It seems to exemplify the state space explosion problem -- and not focused on the fact that the physical change is captured implicitly. I would remove.}
+{\color{black}{\em Fifth}, the G2J Translator currently does not
+support heterogeneous collections (\eg, a list, array, or map that stores entries of different types) and
+dynamic features (\eg, overloading operator and generic data types). Note that most of the
+SmartThings apps do not use these features.}
+

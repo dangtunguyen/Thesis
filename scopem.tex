@@ -1,0 +1,114 @@
+\chapter{Scope and Threat Model}
+%\section{Scope and Threat Model}
+In this work, our goal is to detect safety issues (\ie, vulnerabilities) of IoT systems
+that are exploitable by attackers to transition the system 
+into bad physical states or leak sensitive information.
+Safety requirements (\ie, definition of bad states and information leakage)
+can come from both the users and security experts.
+Examples of bad physical states are
+(i) the front door is unlocked when no one is at home,
+and (ii) a heater is turned off when the temperature is
+{\color{black}below a predefined threshold}.
+%An example of a bad cyber state is the leakage of the users' sensitive data.
+%The safety properties with regards to
+{\color{black} With regards to information leakage we require that:
+(i) private information is sent out via only message interfaces
+(\eg, \textit{sendSmsMessage} and \textit{sendPushMessage} in SmartThings) but not
+via network interfaces (\eg, \textit{httpPost} in SmartThings), and
+(ii) the recipients of methods for sending messages match the configured phone numbers or contacts.
+We point out that legitimate apps might use network interfaces to
+send some control information (\eg, relating to crashes) back to the server.}
+In such cases, we assume that users dictate whether to allow/disallow such operations
+(based on their privacy preferences).
+%In other words, we let the user decide which properties their IoT system must satisfy.}
+%are within the family members.
+
+We consider all devices (hub, sensors, and actuators), the cloud, and the companion app
+as our trusted computing base (TCB), and do not consider software attacks against them.
+However, \sys does mitigate physical attacks that can inject event(s) into the system
+(\eg, by physically increasing the temperature or spoofing the sensors)
+or maliciously induced device or communication failures (\eg, by jamming~\cite{5473884}).
+\sys seeks to identify and prevent such events from leading the system into safety violations.
+However,  targeted solutions to those attacks
+(\eg, preventing spoofing of sensors or jamming mitigation) are out-of-scope.
+
+We also consider potential bad states that can arise
+due to natural device failures.
+Note that many users have reported the failures of their ZigBee and Z-Wave IoT devices
+(\textit{e.g.}, motion sensors, water leak sensors, presence sensors, and garage door openers)
+in the SmartThings Community~\cite{Samsung:smartthingscom1,Samsung:smartthingscom2, Samsung:smartthingscom3, Samsung:smartthingscom4}.
+Failures could also result from device batteries running out.
+We seek to identify if such device failures can cause an IoT system to transition
+into a bad physical state.
+
+%Apps can be benign but vulnerable or malicious.
+Malicious apps can exploit weaknesses in the configuration and
+attack other apps by introducing problematic events.
+We only seek to attribute an app as possibly malicious and
+leave the {\color{black}confirmation} to human experts or other systems.
+
+\begin{comment}
+{
+\section{Motivating Examples}
+\label{sec:motivation}
+
+We use two examples of violations found via our experiments (more details in \S~\ref{sec:eval}) to motivate our work.
+Although simple, these examples exemplify the safety problems that arise with third party IoT apps.
+
+\textbf{First Example:} a user installs three smart apps viz., \textit{Light Off When Close}, \textit{Good Night},
+and \textit{Big Turn Off} to automate her smart home.
+\textit{Light Off When Close} will turn off
+configured lights when the configured contact sensor detects door closing;
+\textit{Good Night} will change the location mode to \textit{Sleeping}
+when all the monitored lights and motion sensors are inactive for
+a configured period during night; and
+\textit{Big Turn Off} will turn off all the configured devices
+when (i) the user touches the app or (ii) the app detects a location mode change.
+
+If we define a safety property as
+\textit{temperature should always be higher than 0 degree Celsius},
+a violation instance can be discovered by \sys as follows.
+At night, after the owner closes the door monitored by
+the \textit{Light Off When Close} app, it turns off the lights.
+After a while, the app \textit{Good Night} changes the location mode to \textit{Sleeping}.
+Upon the location mode change, \textit{Big Turn Off} turns off all of the configured devices,
+which includes a heater.
+Because the temperature can be below 0 degree during night,
+this can lead to a violation of our safety property.
+
+The violation scenario can be avoided if
+(i) \textit{Big Turn Off} turns off the configured devices \emph{only} when the user touches the app,
+(ii) \textit{Big Turn Off} explicitly asks users to configure that the configured devices {\color{black}to be} turned off
+only upon transitioning to a specific mode (\eg, ``Away''),
+(iii) \textit{Big Turn Off} is installed together with only apps that change
+the location mode to ``Away" when people leave home,
+or (iv) \textit{Big Turn Off} is not configured to the heater.
+Unfortunately, the first three options are not feasible and users may
+have valid reasons to configure the app to control the heater.
+
+
+\thomas{\textbf{Second Example:} a user installs two smart apps viz., \textit{Away Mode With Eco Turn Off} and \textit{Lock Down} to automate her smart home.
+\textit{Away Mode With Eco Turn Off} will change location mode to \textit{Away} when all people leave home and turn off some devices; and
+\textit{Lock Down} will lock all the configured locks when (i) the user touches the app or (ii) the app detects a location mode change.}
+
+\thomas{If we define a safety property as
+\textit{The entrance door must be locked when all people leave home}, a violation instance can be discovered by \sys as follows.
+When all people leave home (\textit{i.e.}, states of all presence sensors change to ``not present''), \textit{Away Mode With Eco Turn Off} changes location mode to \textit{Away}. Upon the location mode change, \textit{Lock Down} sends the ``lock'' command to the entrance door. Unluckily, the entrance door is offline/unavailable at that time and thus is not locked. Similarly, the defined property will be also violated when one of the presence sensors goes offline (assume that its last state is ``present''). As a result, when all people leave home, \textit{Away Mode With Eco Turn Off} will not change location mode to \textit{Away} and thus \textit{Lock Down} is not triggered to lock the entrance door.}
+
+\thomas{Many users have reported the failures of their ZigBee and Z-Wave IoT devices (\textit{e.g.}, motion sensors, water leak sensors, presence sensors, contact sensors, and garage door openers) in the SmartThings Community \cite{Samsung:smartthingscom1,Samsung:smartthingscom2, Samsung:smartthingscom3, Samsung:smartthingscom4}. Therefore, we should definitely consider the impact of device failures on IoT systems.}
+
+While these examples are quite simple, they exemplify an important problem:
+it is very possible that users may not carefully evaluate their IoT systems so
+it can be driven into bad states,
+especially when apps are installed or configured at different times
+or by different users.
+In practice, it is also difficult for typical users who do not have a strong
+technical background to assess if bad interactions are possible.
+Even if cursory examinations reveal simple violations,
+complex violations are harder to find manually.
+The latter is true especially if such interactions result from a chain of
+sensing and actuation events across multiple devices controlled
+by independent apps.
+Thus, an automated way of discovering such bad interactions is necessary.
+}
+\end{comment}

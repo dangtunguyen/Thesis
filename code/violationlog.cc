@@ -1,0 +1,15 @@
+SmartThings0.prom:2690 (state 295)	[generatedEvent.evtType = notpresent]
+SmartThings0.prom:2609 (state 332)	[g_STPresSensorArr.element[STPresSensorIndex].subNotifiers[index2] = g_STPresSensorArr.element[STPresSensorIndex].subNotifiers[index2] + 1]
+SmartThings0.prom:2725 (state 757)	[((g_STPresSensorArr.element[AutoModeChange_people.element[0].gArrIndex].subNotifiers[AutoModeChange_people.element[0].eventCountIndex] > 0))]
+SmartThings0.prom:2728 (state 759)	[g_STPresSensorArr.element[AutoModeChange_people.element[0].gArrIndex].subNotifiers[AutoModeChange_people.element[0].eventCountIndex] = g_STPresSensorArr.element[AutoModeChange_people.element[0].gArrIndex].subNotifiers[AutoModeChange_people.element[0].eventCountIndex] - 1]
+SmartThings0.prom:1913 (state 937)	[(!((location.mode==AutoModeChange_newMode)))]
+SmartThings0.prom:2308 (state 1797)	[ST_Command.evtType = Away]
+SmartThings0.prom:2438 (state 1765)	[location.mode = HandleLocationEvt_mode]
+SmartThings0.prom:2451 (state 1788)	[location.subNotifiers[index0] = location.subNotifiers[index0] + 1]
+SmartThings0.prom:2704 (state 346)	[((location.subNotifiers[UnlockDoor_location] > 0))]
+SmartThings0.prom:2707 (state 348)	[location.subNotifiers[UnlockDoor_location] = location.subNotifiers[UnlockDoor_location] - 1]
+SmartThings0.prom:1832 (state 596)	[ST_Command.evtType = unlock]
+SmartThings0.prom:2357 (state 665)	[HandleSTLockEvt_state = 48]
+SmartThings0.prom:2553 (state 703)	[g_STLockArr.element[m_JJJCTEMP_0.gArrIndex].currentLock = HandleSTLockEvt_state]
+spin: _spin_nvr.tmp:3, Error: assertion violated
+spin: text of failed assertion: assert(!(!((((g_STPresSensorArr.element[alicePresence_STPresSensor].currentPresence != 18)||(g_STLockArr.element[doorLock_STLock].currentLock!=48))))))

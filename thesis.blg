@@ -1,0 +1,103 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: plain.bst
+Database file #1: ./bibtex/mybibfile.bib
+Warning--entry type for "Fisher:honeywellbug" isn't style-file defined
+--line 324 of file ./bibtex/mybibfile.bib
+Warning--entry type for "Hesseldahl:hackereye" isn't style-file defined
+--line 332 of file ./bibtex/mybibfile.bib
+Warning--entry type for "Lomas:zigbeeflaw" isn't style-file defined
+--line 357 of file ./bibtex/mybibfile.bib
+Warning--entry type for "alpha" isn't style-file defined
+--line 1049 of file ./bibtex/mybibfile.bib
+Warning--entry type for "iotexp" isn't style-file defined
+--line 1057 of file ./bibtex/mybibfile.bib
+Warning--entry type for "iot_security_news" isn't style-file defined
+--line 1065 of file ./bibtex/mybibfile.bib
+Warning--entry type for "Brian:internreport" isn't style-file defined
+--line 1206 of file ./bibtex/mybibfile.bib
+Warning--string name "jun." is undefined
+--line 1210 of file ./bibtex/mybibfile.bib
+Warning--entry type for "IBM:iot" isn't style-file defined
+--line 1447 of file ./bibtex/mybibfile.bib
+Warning--string name "jun." is undefined
+--line 1451 of file ./bibtex/mybibfile.bib
+Warning--entry type for "Microsoft:manufacturing" isn't style-file defined
+--line 1455 of file ./bibtex/mybibfile.bib
+Warning--string name "jun." is undefined
+--line 1459 of file ./bibtex/mybibfile.bib
+Warning--entry type for "CropMetrics:iot" isn't style-file defined
+--line 1463 of file ./bibtex/mybibfile.bib
+Warning--string name "jun." is undefined
+--line 1467 of file ./bibtex/mybibfile.bib
+Warning--entry type for "Medria:iot" isn't style-file defined
+--line 1471 of file ./bibtex/mybibfile.bib
+Warning--string name "jun." is undefined
+--line 1475 of file ./bibtex/mybibfile.bib
+Warning--can't use both author and editor fields in Beer1997
+Warning--can't use both author and editor fields in Biere1999:BMC
+Warning--empty publisher in Bryant1986
+Warning--can't use both author and editor fields in Clarke1982
+Warning--can't use both author and editor fields in Cordeiro2012:ESBMC
+Warning--can't use both author and editor fields in Dong1999:fighting
+Warning--can't use both author and editor fields in Eisner2002:comparing
+Warning--can't use both author and editor fields in Godefroid2018
+Warning--can't use both author and editor fields in Gosain2015
+Warning--empty publisher in Seth2016:smartgrid
+Warning--can't use both author and editor fields in Hatcliff2001
+Warning--empty publisher in Holzmann:spin
+Warning--can't use both author and editor fields in Holzmann1999:iprotocol
+Warning--empty publisher in Satoshi2013
+Warning--can't use both author and editor fields in Kroening2014:CBMC
+Warning--empty publisher in Lili:staticanalysisreview
+Warning--can't use both author and editor fields in Lluch-Lafuente2002
+Warning--empty chapter and pages in McMillan1993
+Warning--can't use both author and editor fields in Merz2012:LLBMC
+Warning--can't use both author and editor fields in Peled1996
+Warning--can't use both author and editor fields in Rudell2003
+Warning--can't use both author and editor fields in Sardar2016
+Warning--can't use both author and editor fields in Shankar2018
+Warning--can't use both author and editor fields in Thomsen2015
+You've used 137 entries,
+            2118 wiz_defined-function locations,
+            1312 strings with 30865 characters,
+and the built_in function-call counts, 51404 in all, are:
+= -- 4973
+> -- 2385
+< -- 72
++ -- 963
+- -- 810
+* -- 3322
+:= -- 7989
+add.period$ -- 415
+call.type$ -- 137
+change.case$ -- 792
+chr.to.int$ -- 0
+cite$ -- 161
+duplicate$ -- 2108
+empty$ -- 4176
+format.name$ -- 810
+if$ -- 11323
+int.to.chr$ -- 0
+int.to.str$ -- 137
+missing$ -- 122
+newline$ -- 686
+num.names$ -- 274
+pop$ -- 1186
+preamble$ -- 1
+purify$ -- 678
+quote$ -- 0
+skip$ -- 1655
+stack$ -- 0
+substring$ -- 2804
+swap$ -- 724
+text.length$ -- 72
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 502
+warning$ -- 24
+while$ -- 457
+width$ -- 140
+write$ -- 1506
+(There were 40 warnings)

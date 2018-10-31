@@ -1,0 +1,50 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Goals}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Our Solution}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Contributions}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background and Synopsis}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Samsung SmartThings}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Overview}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Programming Model}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.3}{Communications}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Motivating Examples}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{Unsafe Physical States}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Misconfiguration Problems}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Model Checking as a Building Block}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Scope and Threat Model}{}% 16
+\BOOKMARK [0][-]{chapter.4}{System Overview}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Chain of Events in an IoT System}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Overall Architecture}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{Our Work in Perspective}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{App Dependency Analyzer}{}% 21
+\BOOKMARK [1][-]{section.5.1}{Extracting Input/Output Events}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.2}{Dependency Graph Construction}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.3}{Example}{chapter.5}% 24
+\BOOKMARK [0][-]{chapter.6}{Translator}{}% 25
+\BOOKMARK [1][-]{section.6.1}{Handling SmartThings' Language Features}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.2}{Type Inference}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.3}{Handling Groovy's Built-in Utilities}{chapter.6}% 28
+\BOOKMARK [0][-]{chapter.7}{Configuration Extractor}{}% 29
+\BOOKMARK [0][-]{chapter.8}{Model Generator}{}% 30
+\BOOKMARK [1][-]{section.8.1}{Modeling an IoT system}{chapter.8}% 31
+\BOOKMARK [1][-]{section.8.2}{Concurrency Model}{chapter.8}% 32
+\BOOKMARK [1][-]{section.8.3}{The IoT System Model in Promela}{chapter.8}% 33
+\BOOKMARK [1][-]{section.8.4}{Safety Properties}{chapter.8}% 34
+\BOOKMARK [1][-]{section.8.5}{Example}{chapter.8}% 35
+\BOOKMARK [0][-]{chapter.9}{Output Analyzer}{}% 36
+\BOOKMARK [0][-]{chapter.10}{Evaluations}{}% 37
+\BOOKMARK [1][-]{section.10.1}{Test Cases and Configurations}{chapter.10}% 38
+\BOOKMARK [1][-]{section.10.2}{Identifying Unsafe Configurations}{chapter.10}% 39
+\BOOKMARK [1][-]{section.10.3}{Violation Attribution}{chapter.10}% 40
+\BOOKMARK [1][-]{section.10.4}{Scalability}{chapter.10}% 41
+\BOOKMARK [1][-]{section.10.5}{Concurrent vs. Sequential}{chapter.10}% 42
+\BOOKMARK [0][-]{chapter.11}{Discussion}{}% 43
+\BOOKMARK [1][-]{section.11.1}{Application to other IoT Platforms}{chapter.11}% 44
+\BOOKMARK [1][-]{section.11.2}{Limitations}{chapter.11}% 45
+\BOOKMARK [0][-]{chapter.12}{Related Work}{}% 46
+\BOOKMARK [1][-]{section.12.1}{IoT Security}{chapter.12}% 47
+\BOOKMARK [1][-]{section.12.2}{Model Checking}{chapter.12}% 48
+\BOOKMARK [0][-]{chapter.13}{Conclusions}{}% 49
+\BOOKMARK [0][-]{chapter*.26}{Bibliography}{}% 50

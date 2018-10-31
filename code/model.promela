@@ -1,0 +1,61 @@
+#define MAX_SUBSCRIBERS 10
+#define MAX_ARRAY_SIZE 5
+
+#define type_95 int
+#define type_101 bool
+
+mtype = {exit, inactive, _active, on, off, notpresent, present, fanAuto, fanCirculate, fanOn,
+   Home, Away, Night, _mode, position, _sunrise, _sunset, sunsetTime, sunriseTime, sendSms,
+   auto, cool, emergencyHeat, heat, lock, unlock, clear, detected, tested, close, open,
+   temperature, appTouch, setCoolingSetpoint, setHeatingSetpoint, put, power_meter,
+   illuminance, wet, dry, setLevel, COSmoke, alarm, both, siren, strobe, pushed, held,
+   usercodechange, setHue, setSaturation, setColor, tampered, humidity, httpPost, battery,
+   powered, mains, dc, unsubscribe};
+   
+typedef STState_rec { 
+	type_95 name; 
+	type_95 value; 
+	type_95 date; 
+	bool isAlive;
+}
+typedef STState_arr { 
+	byte length; 
+	STState_rec element[MAX_ARRAY_SIZE]; 
+}
+typedef STEvent_rec { 
+	type_95 name; 
+	type_95 value; 
+	type_101 physical; 
+	type_95 deviceId; 
+	type_95 date; 
+	type_95 id; 
+	type_95 unit; 
+	type_101 type; 
+	bool isAlive;
+	mtype evtType;
+}
+typedef STEvent_arr { 
+	byte length; 
+	STEvent_rec element[MAX_ARRAY_SIZE]; 
+}
+typedef STSwitch_rec { 
+	type_95 id; 
+	type_95 gArrIndex; 
+	STEvent_arr events; 
+	STState_arr states; 
+	STState_rec batteryState; 
+	type_95 currentBattery; 
+	STState_rec switchState; 
+	type_95 currentSwitch;
+	bool isAlive;
+	byte currEvtIndex;
+	byte numReceivedCommands;
+	byte numSubscribers;
+	byte eventCountIndex;
+	bool eventCount[MAX_SUBSCRIBERS];
+}
+typedef STSwitch_arr { 
+	byte length; 
+	STSwitch_rec element[MAX_SWITCH_DEVICES]; 
+}
+STSwitch_arr _g_STSwitchArr;

@@ -204,15 +204,6 @@
   year          = "2017",
 }
 
-@incollection{Lili:staticanalysisreview,
-  author        = "Li Li and T. F. Bissyande and M. Papadakisa and S. Rasthoferb and
-  				A. Bartela and D. Octeauc and J. Kleina and Y. L. Traon",
-  title         = "Static Analysis of Android Apps: A Systematic Literature Review",
-  booktitle     = "{Elsevier} Information and Software Technology",
-  volume        = "88",
-  year          = "2017",
-  pages         = "67-95"
-}
 
 @book{Baier:modelchecking,
   author        = "C. Baier and J. P. Katoen",
@@ -979,71 +970,6 @@ year={2016},
 volume={139},
 number={2}
 }
-
-An example of a IEEEtran control entry which can change some IEEEtran.bst
-settings. An entry like this must be cited via \bstctlcite{} command
-before the first real \cite{}. The same entry key cannot be called twice
-(just like multiple \cite{} of the same entry key place only one entry
-in the bibliography.)
-The available control fields are:
-
-CTLuse_article_number
-"no" turns off the display of the number for articles.
-"yes" enables
-
-CTLuse_paper
-"no" turns off the display of the paper and type fields in inproceedings.
-"yes" enables
-
-CTLuse_url
-"no" turns off the display of the url field.
-"yes" enables
-
-CTLuse_forced_etal
-"no" turns off the forced use of "et al."
-"yes" enables
-
-CTLmax_names_forced_etal
-The maximum number of names that can be present beyond which an "et al."
-usage is forced. Be sure that CTLnames_show_etal (below)
-is not greater than this value!
-
-CTLnames_show_etal
-The number of names that will be shown with a forced "et al.".
-Must be less than or equal to CTLmax_names_forced_etal
-
-CTLuse_alt_spacing
-"no" turns off the alternate interword spacing for entries with URLs.
-"yes" enables
-Will not have any effect (is disabled) if the display of urls is disabled.
-
-CTLalt_stretch_factor
-If alternate interword spacing for entries with URLs is enabled, this is
-the interword spacing stretch factor that will be used. For example, the
-default "4" here means that the interword spacing in entries with URLs can
-stretch to four times normal. Does not have to be an integer.
-
-CTLdash_repeated_names
-"no" turns off the "dashification" of repeated (i.e., identical to those
-of the previous entry) names. The IEEE normally does this.
-"yes" enables
-
-CTLname_format_string
-The name format control string as explained in the BibTeX style hacking
-guide.
-IEEE style "{f.~}{vv~}{ll}{, jj}" is the default,
-
-CTLname_latex_cmd
-A LaTeX command that each name will be fed to (e.g., "\textsc").
-Leave empty if no special font is desired for the names.
-The default is empty.
-
-CTLname_url_prefix
-The prefix text used before URLs (if they are enabled).
-The default is "[Online]. Available:" A space will be inserted after this
-text. If this space is not wanted, just use \relax at the end of the
-prefix text.
-
 
 
 @electronic{alpha,

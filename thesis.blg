@@ -4,37 +4,37 @@ The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: ./bibtex/mybibfile.bib
 Warning--entry type for "Fisher:honeywellbug" isn't style-file defined
---line 324 of file ./bibtex/mybibfile.bib
+--line 315 of file ./bibtex/mybibfile.bib
 Warning--entry type for "Hesseldahl:hackereye" isn't style-file defined
---line 332 of file ./bibtex/mybibfile.bib
+--line 323 of file ./bibtex/mybibfile.bib
 Warning--entry type for "Lomas:zigbeeflaw" isn't style-file defined
---line 357 of file ./bibtex/mybibfile.bib
+--line 348 of file ./bibtex/mybibfile.bib
 Warning--entry type for "alpha" isn't style-file defined
---line 1049 of file ./bibtex/mybibfile.bib
+--line 975 of file ./bibtex/mybibfile.bib
 Warning--entry type for "iotexp" isn't style-file defined
---line 1057 of file ./bibtex/mybibfile.bib
+--line 983 of file ./bibtex/mybibfile.bib
 Warning--entry type for "iot_security_news" isn't style-file defined
---line 1065 of file ./bibtex/mybibfile.bib
+--line 991 of file ./bibtex/mybibfile.bib
 Warning--entry type for "Brian:internreport" isn't style-file defined
---line 1206 of file ./bibtex/mybibfile.bib
+--line 1132 of file ./bibtex/mybibfile.bib
 Warning--string name "jun." is undefined
---line 1210 of file ./bibtex/mybibfile.bib
+--line 1136 of file ./bibtex/mybibfile.bib
 Warning--entry type for "IBM:iot" isn't style-file defined
---line 1447 of file ./bibtex/mybibfile.bib
+--line 1373 of file ./bibtex/mybibfile.bib
 Warning--string name "jun." is undefined
---line 1451 of file ./bibtex/mybibfile.bib
+--line 1377 of file ./bibtex/mybibfile.bib
 Warning--entry type for "Microsoft:manufacturing" isn't style-file defined
---line 1455 of file ./bibtex/mybibfile.bib
+--line 1381 of file ./bibtex/mybibfile.bib
 Warning--string name "jun." is undefined
---line 1459 of file ./bibtex/mybibfile.bib
+--line 1385 of file ./bibtex/mybibfile.bib
 Warning--entry type for "CropMetrics:iot" isn't style-file defined
---line 1463 of file ./bibtex/mybibfile.bib
+--line 1389 of file ./bibtex/mybibfile.bib
 Warning--string name "jun." is undefined
---line 1467 of file ./bibtex/mybibfile.bib
+--line 1393 of file ./bibtex/mybibfile.bib
 Warning--entry type for "Medria:iot" isn't style-file defined
---line 1471 of file ./bibtex/mybibfile.bib
+--line 1397 of file ./bibtex/mybibfile.bib
 Warning--string name "jun." is undefined
---line 1475 of file ./bibtex/mybibfile.bib
+--line 1401 of file ./bibtex/mybibfile.bib
 Warning--can't use both author and editor fields in Beer1997
 Warning--can't use both author and editor fields in Biere1999:BMC
 Warning--empty publisher in Bryant1986
@@ -50,7 +50,6 @@ Warning--empty publisher in Holzmann:spin
 Warning--can't use both author and editor fields in Holzmann1999:iprotocol
 Warning--empty publisher in Satoshi2013
 Warning--can't use both author and editor fields in Kroening2014:CBMC
-Warning--empty publisher in Lili:staticanalysisreview
 Warning--can't use both author and editor fields in Lluch-Lafuente2002
 Warning--empty chapter and pages in McMillan1993
 Warning--can't use both author and editor fields in Merz2012:LLBMC
@@ -59,45 +58,45 @@ Warning--can't use both author and editor fields in Rudell2003
 Warning--can't use both author and editor fields in Sardar2016
 Warning--can't use both author and editor fields in Shankar2018
 Warning--can't use both author and editor fields in Thomsen2015
-You've used 137 entries,
+You've used 136 entries,
             2118 wiz_defined-function locations,
-            1312 strings with 30865 characters,
-and the built_in function-call counts, 51404 in all, are:
-= -- 4973
-> -- 2385
-< -- 72
-+ -- 963
-- -- 810
-* -- 3322
-:= -- 7989
-add.period$ -- 415
-call.type$ -- 137
-change.case$ -- 792
+            1305 strings with 30578 characters,
+and the built_in function-call counts, 50788 in all, are:
+= -- 4917
+> -- 2342
+< -- 70
++ -- 946
+- -- 794
+* -- 3270
+:= -- 7892
+add.period$ -- 411
+call.type$ -- 136
+change.case$ -- 781
 chr.to.int$ -- 0
-cite$ -- 161
-duplicate$ -- 2108
-empty$ -- 4176
-format.name$ -- 810
-if$ -- 11323
+cite$ -- 159
+duplicate$ -- 2086
+empty$ -- 4138
+format.name$ -- 794
+if$ -- 11191
 int.to.chr$ -- 0
-int.to.str$ -- 137
-missing$ -- 122
-newline$ -- 686
-num.names$ -- 274
-pop$ -- 1186
+int.to.str$ -- 136
+missing$ -- 121
+newline$ -- 681
+num.names$ -- 272
+pop$ -- 1172
 preamble$ -- 1
-purify$ -- 678
+purify$ -- 668
 quote$ -- 0
-skip$ -- 1655
+skip$ -- 1639
 stack$ -- 0
-substring$ -- 2804
-swap$ -- 724
-text.length$ -- 72
+substring$ -- 2779
+swap$ -- 715
+text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 502
-warning$ -- 24
-while$ -- 457
-width$ -- 140
-write$ -- 1506
-(There were 40 warnings)
+type$ -- 498
+warning$ -- 23
+while$ -- 453
+width$ -- 139
+write$ -- 1494
+(There were 39 warnings)

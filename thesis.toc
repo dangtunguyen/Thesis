@@ -1,6 +1,6 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{x}{chapter*.2}
-\contentsline {chapter}{List of Tables}{xi}{chapter*.3}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.2}
+\contentsline {chapter}{List of Tables}{x}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Goals}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Our Solution}{3}{section.1.2}
